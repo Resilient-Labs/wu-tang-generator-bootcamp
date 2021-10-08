@@ -1,0 +1,71 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color:rgb(241 207 50);
+  font-family: 'PT Sans Narrow', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  background-color:black;
+  background-size:cover;
+  background-position: center ;
+  background-attachment: fixed;
+}
+
+div{
+  
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+}
+
+
+img{
+  width: 20em;
+}
+
+
+h1{
+  color:rgb(241 207 50);
+  font-size: 4em;
+  margin-top:0;
+}
+
+label{
+  display:block;
+}
+select{
+  width: 10em;
+  height:2em;
+}
+#center{
+  margin: 2em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+button{
+  background-color:rgb(241 207 50);
+  color:black;
+  height:2em;
+  width: 10em;
+  border:none;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
