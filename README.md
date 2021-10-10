@@ -8,7 +8,7 @@
 HHTML, CSS, JavaScript API</h3>
   
 ### Lessons Learned:
-<h3>Node. js programming to web servers, enabling development of fast web servers in JavaScript.</h3>
+<h3> How to generate a series of values.</h3>
 
 
 I completed the challenge: 5
