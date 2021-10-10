@@ -1,6 +1,4 @@
-# ↔️ Week08 Bootcamp2019a Project: Server Side Palindrome Checker
-
-### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
+Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
 
 ### How to submit your code for review:
 
@@ -17,6 +15,6 @@
 Example:
 ```
 I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
+I feel good about my code: 5
+I would like to add more names to the list and possibilities down the road.
 ```
