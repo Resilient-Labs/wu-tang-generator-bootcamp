@@ -1,0 +1,52 @@
+#header {
+  text-align: center;
+}
+#one,
+#two,
+#three,
+#four,
+#five {
+  border: 1px solid black;
+  margin-left: 500px;
+  margin-right: 500px;
+  height: 100px;
+  text-align: center;
+  color: yellow;
+}
+h2 {
+  color: yellow;
+  text-align: center;
+}
+.result {
+  color: yellow;
+  text-align: center;
+}
+button {
+  margin-left: 47%;
+}
+
+.img {
+  text-align: center;
+}
+
+#one {
+  top: 20px;
+}
+#two {
+  left: 40px;
+}
+#three {
+  bottom: -10px;
+  right: 20px;
+}
+#four {
+  bottom: -10px;
+  right: 20px;
+}
+#five {
+  bottom: -10px;
+  right: 20px;
+}
+body {
+  background-color: black;
+}
