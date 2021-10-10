@@ -1,3 +1,4 @@
+// collaborated with team Hayden to successfully complete the project
 document.querySelector('#get').addEventListener('click', generateName)
 
 function generateName() {
@@ -29,3 +30,4 @@ function generateName() {
 
     // //trying to get button to refresh the page, good source:
     // https://stackoverflow.com/questions/29884654/button-that-refreshes-the-page-on-click
+//collaborated with team Hayden to successfully complete the project
