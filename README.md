@@ -16,5 +16,5 @@ Example:
 ```
 I completed the challenge: 5
 I feel good about my code: 5
-I would like to add more names to the list and possibilities down the road.
+I would like to add more names to the list and possibilities down the road and clean up some of the server side code.
 ```
