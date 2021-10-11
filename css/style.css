@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(108, 158, 32);
+}
+
+.wuTangName {
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: underline;
+}
