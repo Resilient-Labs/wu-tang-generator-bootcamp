@@ -1,0 +1,78 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1466428996289-fb355538da1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-size: 100% 100%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+section{
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 10px 0;
+  background-color: black;
+  opacity: 0.8;
+  font-size: 1.5rem;
+}
+h2{
+  color: white;
+  font-size: 3rem;
+  margin: 0;
+  border: 3px dotted gold;
+  background-color: black;
+  opacity: 0.8;
+}
+label{
+  color: wheat;
+  font-size: 2rem;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
