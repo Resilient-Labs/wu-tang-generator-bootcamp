@@ -1,0 +1,84 @@
+
+label {
+  font-size: 30px;
+}
+
+.width, h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.button,
+option {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 100px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.button {
+  background-color: rgb(165, 203, 141);
+  font-family: 'Permanent Marker', cursive;
+
+}
+.a {
+  width: 100%;
+}
+
+body {
+  background: url(https://images.squarespace-cdn.com/content/v1/5926f98b725e25f7efef5841/1540744518838-FOYUVHBFD9QNZTQ4RYL2/ke17ZwdGBToddI8pDm48kPqQfq0L3n3wpHIsRapTfg8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKczo5Zn4xktlpMsMj-QlHXeMfNK6GwvtVkYEWiR8XAPyD3GfLCe_DXOSC_YcAacWL_/wutangclan-feat.jpg);
+  no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+}
+
+
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  color: rgb(165, 203, 141);
+  padding: 0, 20px;
+  font-size: 46px;
+}
+label {
+  padding: 20px;
+}
+
+label,
+option .ur {
+  font-family: 'Bangers', cursive;
+  color: orange;
+  border: 20px;
+}
+
+.back{
+background-color: rgba(0, 8, 30, 0.5);
+padding: 0.5rem;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 0.75rem;
+width: 33%;
+float: left;
+
+}
+
+.null {
+  width: 32%;
+  float:left;
+}
+.b {
+  width: 100%;
+}
+
+
+p {
+  color: orange;
+  font-size: 36px;
+  font-family: 'Permanent Marker', cursive;
+}
