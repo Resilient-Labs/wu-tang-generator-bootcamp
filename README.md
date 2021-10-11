@@ -1,6 +1,6 @@
 # Project: Wu-Tang Name Generator
 
-This project presents the user with 5 survey questions and based on those answers randomly generate their name.
+This project presents the user with 5 survey questions and based on those answers randomly generates their name.
 
 # Details
 Languages used — JavaScript, HTML5, CSS3.
