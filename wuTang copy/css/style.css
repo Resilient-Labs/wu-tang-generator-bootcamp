@@ -1,0 +1,50 @@
+body{
+    background:url(..//rapBattle.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    margin:0%;
+    height: 800px;
+}
+h1{
+    color:rgba(199, 254, 255);
+    text-align: center;
+}
+.container{
+    border:3px solid rgba(199, 254, 255);
+    text-align: center;
+    margin-left:25%;
+    margin-right:60px;
+    margin-top: 10%;
+    height:200px;
+    width:50%;
+}
+
+.first{
+    font-size:1.5em;
+}
+
+.second{
+    font-size:1.5em;
+}
+
+.third{
+    font-size:1.5em;
+}
+
+.fourth{
+    font-size:1.5em;
+}
+
+.fifth{
+    font-size:1.5em;
+}
+.button{
+    background:black;
+    color:white;
+    position: relative;
+}
+
+
+
