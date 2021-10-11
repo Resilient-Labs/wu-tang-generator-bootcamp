@@ -1,0 +1,84 @@
+h1{
+    font-family: 'Bowlby One SC', cursive;
+    color:white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size:80px;
+    text-align: center;
+    margin-top:-10px;
+    margin-bottom:25px;
+}
+
+body{
+    background: rgb(38,38,38)
+}
+
+#wu{
+    width:25%;
+    margin-left:35%;
+    padding-top:20px;
+    margin-bottom:0;
+}
+
+#one p,#two p ,#three p ,#four p,#five p{
+    font-family: 'Bowlby One SC', cursive;
+    background:grey;
+    text-align: center;
+}
+
+#one,#two,#three,#four,#five{
+    background: white;
+    border:2px solid black;
+    float:left;
+    width:18%;
+    margin-left:1.3%;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+button{
+    font-family: 'Bowlby One SC', cursive;
+    background:black;
+    color:white;
+    padding:10px;
+    font-size:25px;
+    margin-top:4%;
+    border:1px solid white;
+    box-shadow: 15px 15px black;
+    margin-left:40%;
+}
+
+button:active {
+    transform: translateY(4px);
+  }
+
+#one #text{
+    text-align: left;
+}
+
+.welcome{
+    font-family: 'Bowlby One SC', cursive;
+    font-size:60px;
+    text-align: center;
+    color:white;
+    margin-bottom:0;
+ margin-top:3%;
+ -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.result{
+    font-family: 'Bowlby One SC', cursive;
+    font-size:90px;
+    text-align: center;
+    margin-top:-40px;
+    margin-bottom:0;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: white;
+}
+
+.image{
+    margin-left: 29%;
+    width: 40%;
+    margin-top: -7%;
+    margin-bottom:-10%;
+}
