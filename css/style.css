@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  position: absolute;
+  top: 42%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  background-image: url("logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  color: rgb(254, 210, 3);
+  text-align: center;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  font-family: "Audiowide";
+  text-transform: capitalize;
+  font-size: 36px;
+}
+h2 {
+  color: white;
+  font-family: "Audiowide";
+  font-size: 20px;
+}
+div {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+button {
+  margin-top: 25px;
+  background-color: rgb(254, 210, 3);
+  color: black;
+  border-radius: 25px;
+  font-family: "Audiowide";
+}
