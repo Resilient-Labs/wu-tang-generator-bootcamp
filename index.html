@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Your description goes here">
+	<meta name="keywords" content="one, two, three">
+
+	<title>Blank Template</title>
+
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<h1>Wu-Tang Name Generator</h1>
+	<p>Take the quiz to find your Wu-Tang name</p>
+	<!-- <form action="quiz" method="POST" action="/quiz"> -->
+		<label for="color-select">Pick a:</label>
+		<select name="color" id="color-select" required>
+			<option value="none" selected disabled hidden>Color</option>
+			<option value='0'>Blue</option>
+			<option value='1'>Green</option>
+			<option value='2'>Yellow</option>
+			<option value='3'>Purple</option>
+			<option value='4'>Orange</option>
+			<option value='5'>Pink</option>
+			<option value='6'>Red</option>
+		</select>
+		<label for="food-select">Pick a:</label>
+		<select name="food" id="food-select" required>
+			<option value="none" selected disabled hidden>Food</option>
+			<option value='0'>Pizza</option>
+			<option value='1'>Pho</option>
+			<option value='2'>Lobster Roll</option>
+			<option value='3'>Mac n Cheese</option>
+			<option value='4'>Tacos</option>
+			<option value='5'>Philly Cheesesteak</option>
+			<option value='6'>Burger</option>
+			<option value="7">Sushi</option>
+		</select>
+		<label for="zodiac-select">Pick your:</label>
+		<select name="zodiac" id="zodiac-select" required>
+			<option value="none" selected disabled hidden>Zodiac Sign</option>
+			<option value="0">Aries</option>
+			<option value="0">Taurus</option>
+			<option value='1'>Gemini</option>
+			<option value='1'>Leo</option>
+			<option value="2">Cancer</option>
+			<option value='2'>Virgo</option>
+			<option value='3'>Libra</option>
+			<option value='3'>Scorpio</option>
+			<option value='4'>Sagittarius</option>
+			<option value="4">Capricorn</option>
+			<option value="5">Aquarius</option>
+			<option value="5">Pisces</option>
+		</select>
+		<label for="season-select">Pick a:</label>
+		<select name="season" id="season-select" required>
+			<option value="none" selected disabled hidden>Season</option>
+			<option value='0'>Fall</option>
+			<option value="2">Winter</option>
+			<option value="4">Spring</option>
+			<option value="6">Summer</option>
+		</select>
+		<label for="vacation-select">Pick a:</label>
+		<select name="vacation" id="vacation-select" required>
+			<option value="none" selected disabled hidden>Vacation Destination</option>
+			<option value='0'>Lisbon</option>
+			<option value="1">Paris</option>
+			<option value='2'>Bali</option>
+			<option value='3'>Rio Di Janeiro</option>
+			<option value='4'>Havana</option>
+			<option value='5'>Tokyo</option>
+			<option value='6'>Santorini</option>
+			<option value='7'>New York</option>
+		</select>
+		<button id="generate">Get Name</button>
+	<!-- </form> -->
+	<h2 id="wuTangName"></h2>
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
