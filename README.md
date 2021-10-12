@@ -9,8 +9,14 @@ An app where you can find out your Wu-tang name. But first you have to answer a 
 
 **Tech used:** HTML5, CSS3 (Tailwind), JavaScript ES6
 
+I learned how to create a wu-tang name generator with different results depending on the answers the users provide. The answers all have values which are added up and go through more computation to display the random name.
+
+## Optimizations
+
+I have code with Math.random() but it is still showing the same answer each time I click the button. I believe this is perhaps because I am dividing the sum by 3, which negates the expression.
+
 # Lessons Learned
 
-* Using label, select and option elements to create a form
+* Using the label, select and option HTML elements to create a form
 * Figuring out how to compute results based on what the user selected
 * Did styling, then learned TailwindCSS to redo the styling
