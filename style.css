@@ -1,0 +1,20 @@
+body{
+    color: yellow;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+section{
+    width: 100%;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+div{
+    width: 20%;
+}
