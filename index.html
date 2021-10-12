@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>html</title>
+</head>
+<body>
+    <h1>Naruto Name Generator</h1>
+
+    <h3>Please answer the questions in order.</h3>
+
+    <h2>Football or basketball?</h2>
+        <button id="football">Football</button>
+        <button id="basketball">Basketball</button>
+        <span id='done1'></span>
+    <h2>Summer or winter?</h2>
+        <button id="summer">Summer</button>
+        <button id="winter">Winter</button>
+        <span id='done2'></span>
+    <h2>Cats or dogs?</h2>
+        <button id="cats">Cats</button>
+        <button id="dogs">Dogs</button>
+        <span id='done3'></span>
+    <h2>Mountains or beaches?</h2>
+        <button id="mountains">Mountains</button>
+        <button id="beaches">Beaches</button>
+        <span id='done4'></span>
+    <h2>Playstation or Xbox?</h2>
+        <button id="playstation">Playstaion</button>
+        <button id="xbox">Xbox</button>
+        <span id='done5'></span>
+
+        <h3 id="name"></h3>
+    
+    <script type="text/javascript">
+        let name = document.querySelector('#name')
+
+        document.querySelector('#football').addEventListener('click', optionFootball)
+        document.querySelector('#basketball').addEventListener('click', optionBasketball)
+
+        function optionFootball() {
+            document.querySelector('#summer').addEventListener('click', optionSummer1)
+            document.querySelector('#winter').addEventListener('click', optionWinter1)
+            document.querySelector('#done1').innerText = 'Answered!'
+        }
+            function optionSummer1() {
+                document.querySelector('#cats').addEventListener('click', optionCats1)
+                document.querySelector('#dogs').addEventListener('click', optionDogs1)
+                document.querySelector('#done2').innerText = 'Answered!'
+            }
+                function optionCats1() {
+                    document.querySelector('#mountains').addEventListener('click', optionMountains1)
+                    document.querySelector('#beaches').addEventListener('click', optionBeaches1)
+                    document.querySelector('#done3').innerText = 'Answered!'
+                }
+                    function optionMountains1() {
+                        document.querySelector('#playstation').addEventListener('click', optionPlaystation1)
+                        document.querySelector('#xbox').addEventListener('click', optionXbox1)
+                        document.querySelector('#done4').innerText = 'Answered!'
+                    }
+                        function optionPlaystation1() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=football&weather=summer&pet=cats&vacation=mountains&system=playstation`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                        function optionXbox1() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=football&weather=summer&pet=cats&vacation=mountains&system=xbox`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                    function optionBeaches1() {
+                        document.querySelector('#playstation').addEventListener('click', optionPlaystation2)
+                        document.querySelector('#xbox').addEventListener('click', optionXbox2)
+                        document.querySelector('#done4').innerText = 'Answered!'
+                    }
+                        function optionPlaystation2() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=football&weather=summer&pet=cats&vacation=beaches&system=playstation`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                        function optionXbox2() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=football&weather=summer&pet=cats&vacation=beaches&system=xbox`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                function optionDogs1() {
+                    document.querySelector('#mountains').addEventListener('click', optionMountains2)
+                    document.querySelector('#beaches').addEventListener('click', optionBeaches2)
+                    document.querySelector('#done3').innerText = 'Answered!'
+                }
+                    function optionMountains2() {
+                        document.querySelector('#playstation').addEventListener('click', optionPlaystation3)
+                        document.querySelector('#xbox').addEventListener('click', optionXbox3)
+                        document.querySelector('#done4').innerText = 'Answered!'
+                    }
+                        function optionPlaystation3() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=football&weather=summer&pet=dogs&vacation=mountains&system=playstation`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                        function optionXbox3() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=football&weather=summer&pet=dogs&vacation=mountains&system=xbox`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                    function optionBeaches2() {
+                        document.querySelector('#playstation').addEventListener('click', optionPlaystation4)
+                        document.querySelector('#xbox').addEventListener('click', optionXbox4)
+                        document.querySelector('#done4').innerText = 'Answered!'
+                    }
+                        function optionPlaystation4() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=football&weather=summer&pet=dogs&vacation=beaches&system=playstation`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                        function optionXbox4() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=football&weather=summer&pet=dogs&vacation=beaches&system=xbox`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+            function optionWinter1() {
+                document.querySelector('#cats').addEventListener('click', optionCats2)
+                document.querySelector('#dogs').addEventListener('click', optionDogs2)
+                document.querySelector('#done2').innerText = 'Answered!'
+            }
+                function optionCats2() {
+                    document.querySelector('#mountains').addEventListener('click', optionMountains3)
+                    document.querySelector('#beaches').addEventListener('click', optionBeaches3)
+                    document.querySelector('#done3').innerText = 'Answered!'
+                }
+                    function optionMountains3() {
+                        document.querySelector('#playstation').addEventListener('click', optionPlaystation5)
+                        document.querySelector('#xbox').addEventListener('click', optionXbox5)
+                        document.querySelector('#done4').innerText = 'Answered!'
+                    }
+                        function optionPlaystation5() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=football&weather=winter&pet=cats&vacation=mountains&system=playstation`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                        function optionXbox5() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=football&weather=winter&pet=cats&vacation=mountains&system=xbox`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                    function optionBeaches3() {
+                        document.querySelector('#playstation').addEventListener('click', optionPlaystation6)
+                        document.querySelector('#xbox').addEventListener('click', optionXbox6)
+                        document.querySelector('#done4').innerText = 'Answered!'
+                    }
+                        function optionPlaystation6() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=football&weather=winter&pet=cats&vacation=beaches&system=playstation`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                        function optionXbox6() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=football&weather=winter&pet=cats&vacation=beaches&system=xbox`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                function optionDogs2() {
+                    document.querySelector('#mountains').addEventListener('click', optionMountains4)
+                    document.querySelector('#beaches').addEventListener('click', optionBeaches4)
+                    document.querySelector('#done3').innerText = 'Answered!'
+                }
+                    function optionMountains4() {
+                        document.querySelector('#playstation').addEventListener('click', optionPlaystation7)
+                        document.querySelector('#xbox').addEventListener('click', optionXbox7)
+                        document.querySelector('#done4').innerText = 'Answered!'
+                    }
+                        function optionPlaystation7() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=football&weather=winter&pet=dogs&vacation=mountains&system=playstation`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                        function optionXbox7() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=football&weather=winter&pet=dogs&vacation=mountains&system=xbox`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                    function optionBeaches4() {
+                        document.querySelector('#playstation').addEventListener('click', optionPlaystation8)
+                        document.querySelector('#xbox').addEventListener('click', optionXbox8)
+                        document.querySelector('#done4').innerText = 'Answered!'
+                    }
+                        function optionPlaystation8() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=football&weather=winter&pet=dogs&vacation=beaches&system=playstation`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                        function optionXbox8() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=football&weather=winter&pet=dogs&vacation=beaches&system=xbox`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+
+
+
+        function optionBasketball() {
+            document.querySelector('#summer').addEventListener('click', optionSummer2)
+            document.querySelector('#winter').addEventListener('click', optionWinter2)
+            document.querySelector('#done1').innerText = 'Answered!'
+        }
+            function optionSummer2() {
+                document.querySelector('#cats').addEventListener('click', optionCats3)
+                document.querySelector('#dogs').addEventListener('click', optionDogs3)
+                document.querySelector('#done2').innerText = 'Answered!'
+            }
+                function optionCats3() {
+                    document.querySelector('#mountains').addEventListener('click', optionMountains5)
+                    document.querySelector('#beaches').addEventListener('click', optionBeaches5)
+                    document.querySelector('#done3').innerText = 'Answered!'
+                }
+                    function optionMountains5() {
+                        document.querySelector('#playstation').addEventListener('click', optionPlaystation9)
+                        document.querySelector('#xbox').addEventListener('click', optionXbox9)
+                        document.querySelector('#done4').innerText = 'Answered!'
+                    }
+                        function optionPlaystation9() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=basketball&weather=summer&pet=cats&vacation=mountains&system=playstation`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                        function optionXbox9() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=basketball&weather=summer&pet=cats&vacation=mountains&system=xbox`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                    function optionBeaches5() {
+                        document.querySelector('#playstation').addEventListener('click', optionPlaystation10)
+                        document.querySelector('#xbox').addEventListener('click', optionXbox10)
+                        document.querySelector('#done4').innerText = 'Answered!'
+                    }
+                        function optionPlaystation10() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=basketball&weather=summer&pet=cats&vacation=beaches&system=playstation`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                        function optionXbox10() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=basketball&weather=summer&pet=cats&vacation=beaches&system=xbox`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                function optionDogs3() {
+                    document.querySelector('#mountains').addEventListener('click', optionMountains6)
+                    document.querySelector('#beaches').addEventListener('click', optionBeaches6)
+                    document.querySelector('#done3').innerText = 'Answered!'
+                }
+                    function optionMountains6() {
+                        document.querySelector('#playstation').addEventListener('click', optionPlaystation11)
+                        document.querySelector('#xbox').addEventListener('click', optionXbox11)
+                        document.querySelector('#done4').innerText = 'Answered!'
+                    }
+                        function optionPlaystation11() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=basketball&weather=summer&pet=dogs&vacation=mountains&system=playstation`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                        function optionXbox11() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=basketball&weather=summer&pet=dogs&vacation=mountains&system=xbox`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                    function optionBeaches6() {
+                        document.querySelector('#playstation').addEventListener('click', optionPlaystation12)
+                        document.querySelector('#xbox').addEventListener('click', optionXbox12)
+                        document.querySelector('#done4').innerText = 'Answered!'
+                    }
+                        function optionPlaystation12() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=basketball&weather=summer&pet=dogs&vacation=beaches&system=playstation`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                        function optionXbox12() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=basketball&weather=summer&pet=dogs&vacation=beaches&system=xbox`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+
+                        }
+            function optionWinter2() {
+                document.querySelector('#cats').addEventListener('click', optionCats4)
+                document.querySelector('#dogs').addEventListener('click', optionDogs4)
+                document.querySelector('#done2').innerText = 'Answered!'
+            }
+                function optionCats4() {
+                    document.querySelector('#mountains').addEventListener('click', optionMountains7)
+                    document.querySelector('#beaches').addEventListener('click', optionBeaches7)
+                    document.querySelector('#done3').innerText = 'Answered!'
+                }
+                    function optionMountains7() {
+                        document.querySelector('#playstation').addEventListener('click', optionPlaystation13)
+                        document.querySelector('#xbox').addEventListener('click', optionXbox13)
+                        document.querySelector('#done4').innerText = 'Answered!'
+                    }
+                        function optionPlaystation13() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=basketball&weather=winter&pet=cats&vacation=mountains&system=playstation`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                        function optionXbox13() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=basketball&weather=winter&pet=cats&vacation=mountains&system=xbox`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                    function optionBeaches7() {
+                        document.querySelector('#playstation').addEventListener('click', optionPlaystation14)
+                        document.querySelector('#xbox').addEventListener('click', optionXbox14)
+                        document.querySelector('#done4').innerText = 'Answered!'
+                    }
+                        function optionPlaystation14() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=basketball&weather=winter&pet=cats&vacation=beaches&system=playstation`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                        function optionXbox14() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=basketball&weather=winter&pet=cats&vacation=beaches&system=xbox`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                function optionDogs4() {
+                    document.querySelector('#mountains').addEventListener('click', optionMountains8)
+                    document.querySelector('#beaches').addEventListener('click', optionBeaches8)
+                    document.querySelector('#done3').innerText = 'Answered!'
+                }
+                    function optionMountains8() {
+                        document.querySelector('#playstation').addEventListener('click', optionPlaystation15)
+                        document.querySelector('#xbox').addEventListener('click', optionXbox15)
+                        document.querySelector('#done4').innerText = 'Answered!'
+                    }
+                        function optionPlaystation15() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=basketball&weather=winter&pet=dogs&vacation=mountains&system=playstation`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                        function optionXbox15() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=basketball&weather=winter&pet=dogs&vacation=mountains&system=xbox`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                    function optionBeaches8() {
+                        document.querySelector('#playstation').addEventListener('click', optionPlaystation16)
+                        document.querySelector('#xbox').addEventListener('click', optionXbox16)
+                        document.querySelector('#done4').innerText = 'Answered!'
+                    }
+                        function optionPlaystation16() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=basketball&weather=winter&pet=dogs&vacation=beaches&system=playstation`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+                        function optionXbox16() {
+                            document.querySelector('#done5').innerText = 'Answered!'
+                            fetch(`/api?sport=basketball&weather=winter&pet=dogs&vacation=beaches&system=xbox`)
+                                .then(response => response.json())
+                                .then((data) => {
+                                name.innerText = `Your Wu-Tang name is ${data.name}!`
+                                })
+                        }
+
+
+    </script>
+</body>
+</html>
