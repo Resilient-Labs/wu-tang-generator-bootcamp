@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wu-Tang Name Generator</title>
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+  <h1> Wu-Tang Name Generator </h1>
+  <!-- //create 5 survey questions with answers to choose from  -->
+  <!-- // add a drop down list and create id for that so we can do the query selectors for it on JS -->
+  <section class="first">
+    <label for="color">Choose Color:</label>
+    <select type="color" id="color">
+      <option value="">-- choose an option--</option>
+      <option value="0">blue</option>
+      <option value="1">gold</option>
+      <option value="2">red</option>
+    </select>
+  </section>
+  <section class="seccond">
+    <label for="color">Choose Shape:</label>
+    <select type="shape" id="shape">
+      <option value="">-- choose an option--</option>
+      <option value="0">circle</option>
+      <option value="1">umbrella</option>
+      <option value="2">triangle</option>
+    </select>
+  </section>
+  <section class="third">
+    <label for="cereal">Choose Cereal:</label>
+    <select type="cereal" id="cereal">
+      <option value="">-- choose an option--</option>
+      <option value="0">frosted flakes</option>
+      <option value="1">fruit loops</option>
+      <option value="2">cheerios</option>
+    </select>
+  </section>
+  <section class="fourth">
+    <label for="anime">Choose Anime:</label>
+    <select type="anime" id="anime">
+      <option value="">-- choose an option--</option>
+      <option value="0">one piece</option>
+      <option value="1">naruto</option>
+      <option value="2">dragon ball z</option>
+    </select>
+  </section>
+  <section class="fifth">
+    <label for="pokemon">Choose a Starter Pokemon:</label>
+    <select class="pokemon" id="pokemon">
+      <option value="">-- choose an option--</option>
+      <option value="0">charmander</option>
+      <option value="1">bulbasaur</option>
+      <option value="2">squirtle</option>
+    </select>
+  </section>
+  <!-- // add a submit button  -->
+  <section class="resultButton">
+    <p class="wuTangName"></p>
+    <button class="button" type="button">Generate Name</button>
+  </section>
+<script src='js/main.js'></script>
+</body>
+</html>
