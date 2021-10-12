@@ -13,7 +13,7 @@ I learned how to create a wu-tang name generator with different results dependin
 
 ## Optimizations
 
-I have code with Math.random() but it is still showing the same answer each time I click the button. I believe this is perhaps because I am dividing the sum by 3, which negates the expression.
+I have code with Math.random() but it is still showing the same answer each time I click the button. I believe this is perhaps because I am dividing the sum by 3, which negates the expression. TailwindCSS was a learning curve, with adjusting to styling in HTML and figuring out how to utilize third-party fonts with Tailwind.
 
 # Lessons Learned
 
