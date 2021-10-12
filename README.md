@@ -5,7 +5,7 @@
 
 ## Link to Project: 
 
-![Wu-Tang Generator Demo](url)
+![Wu-Tang Generator Demo](https://github.com/cat-goncalves/wu-tang-generator-bootcamp/blob/answer/css/wu-tang-generator-demo.gif?raw=true)
 
 ## How It's Made:
 Tech used: HTML, CSS, JavaScript, Node.js
