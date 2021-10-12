@@ -1,22 +1,24 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+# Name Generator
+This is a project for creating a name generator. You are provided with a form with five questions. Each question has an alternative answer. When you fill out the form and click a button you are returned your generated name. The theme for this name generator is Wu-Tang, a popular rap group from the 90's.
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+**Link to project:** 
 
-### How to submit your code for review:
+![screenshot](img/screenshot.jpg)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML, CSS, JavaScript
+
+To make this name generator you need to create a form with inputs as radios that can be clicked on.
+The first alternative answer has a value of 1. The second alternative answer has a value of two. When submitting your responses, the values are totaled and two array's are used to return your first name and last name.
+
+## Optimizations
+
+
+## Lessons Learned:
+
+A great takeaway for this project is using forms which are one of the most important parts of a web page because forms are what are used to collect data from the end user.
+
+## Examples:
+
+
