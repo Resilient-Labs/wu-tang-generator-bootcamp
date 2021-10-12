@@ -36,15 +36,22 @@ const server = http.createServer(function(req, res) {
 
       const lastName = ['Gambino', 'Degular', 'Wizrd', 'Zealot', 'Pepita', 'Punkin\'', 'Spice', 'Monstarr', 'Terminator',  ]
 
-      let userInput = params['quiz']
-      let splitValues = `${userInput}`
-      let userAnswers = splitValues.split(' ')
-     
+      let answers = params['quiz']
+      let arrAnswers = `${answers}`.split(' ')
+
+      let num1 = Number(arrAnswers[0]) + Number(arrAnswers[1]) + Number(arrAnswers[2])
+      let num2 = Number(arrAnswers[3]) + Number(arrAnswers[4])
+
+      let a = null
+      let b = null
+
+      num1 < 9 ? a = num1 : a = Math.floor(num1 / 2)
+      num2 < 9 ? b = num2 : b = Math.floor(num2 / 2)
+
       res.writeHead(200, {'Content-Type': 'application/json'});
         const objToJson = {
-          firstName: firstName,
-          lastName: lastName,
-          userInput: userAnswers
+          firstName: firstName[a],
+          lastName: lastName[b],
         }
         res.end(JSON.stringify(objToJson));
     }//student if
@@ -73,4 +80,4 @@ const server = http.createServer(function(req, res) {
   }
 });
 
-server.listen(8000);
+server.listen(8400);
