@@ -49,8 +49,8 @@ function nameGenerator() {
   let sum =
     Number(attire.value) +
     Number(steak.value) +
-    Number(mac.value) +
-    Number(earth.value) +
+    Number(mac.value)+
+    Number(earth.value)+
     Number(bigFoot.value);
   console.log(sum);
   //uses switch and case to check sum value from 45-60 which corresponds to the lowest possible out and highest possible output. First name will stay static while last name will always be random 
