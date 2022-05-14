@@ -1,3 +1,5 @@
+// Worked with Nafessah S 
+
 // create an event listener that checks that all of the option values are filled when the user presses the button
 // OOP => create an object to house the properties and methods
 const wuTangName = {
