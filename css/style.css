@@ -1,0 +1,37 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  display: flex;
+  flex-direction: column;
+  margin: 0 20%;
+}
+h1, p, label, select, button{
+  align-self: center;
+  text-align: center;
+}
+
+html{
+  background: url(../wutang.jpeg) no-repeat top center;
+  font-family: permanent marker, 'sans-serif', 'open sans';
+  background-size: cover;
+  color: white;
+  font-size: 25px;
+}
+
+h1{
+  font-size: 70px;
+  color: #FDD031;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
