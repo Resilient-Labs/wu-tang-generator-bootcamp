@@ -1,0 +1,97 @@
+body{
+  color: white;
+  font-size: 20px;
+  background-size: cover;
+  font-style:bold;
+  font-weight: bolder;
+background-image: url(https://wutangnamefor.me/wp-content/uploads/2021/12/History-of-the-wu-tang-clan-1.png);
+}
+h1{
+  margin-left:380px;
+  color: #FFFF00;
+  font-style: italic;
+  background-color: black;
+  width: 450px;
+}
+section{
+margin-bottom: 50px;
+margin-left:250px;
+margin-bottom: 10px;
+}
+.q{
+color: rgb(69, 5, 88);
+background-color:#FFFF00;
+
+}
+input{
+transform: scale(1.5);
+margin-left: 5px;
+margin-right:8px;
+}
+
+label{
+  /* margin: 5px; */
+margin-left:20px;
+background-color:#0f0f0f;
+color: white;
+}
+
+.thirdQ >label{
+  margin-left:100px;
+  
+}
+
+
+label:first-child{
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-left:200px;
+ 
+}
+
+
+button{
+  transform: scale(2);
+  background-color: rgb(137, 36, 219);
+  color:white;
+  border-radius: 10px;
+  margin-bottom: 260px;
+  /* margin:0%; */
+    margin-left: 100px;  
+  /* margin:auto; */
+  /* margin-right: -100px; */
+ /* margin-left: 100px; */ */
+/* margin-bottom:200px; */
+}
+
+.firtstQ{
+
+}
+.secondQ{
+
+}
+
+.thirdQ{
+  width:415px;
+  margin-left:280px;
+
+}
+.fourthQ{
+
+}
+.fifthQ{
+
+}
+
+.name_results{
+  border: rgb(57, 222, 7) 2px solid;
+  border-radius: 10px;
+  width: 200px;
+  display:inline-block;
+  margin-left: 300px;
+  margin-top:0%;
+  margin-left:300px;
+  /* margin-bottom: 30px; */
+  height: 100px;
+  /* margin:0%; */
+}
