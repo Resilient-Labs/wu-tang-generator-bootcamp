@@ -1,0 +1,49 @@
+html {
+  background-image: url(graffiti.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  width: 100vw;
+  text-align: center;
+  background-color: #0e131775;
+  color: white;
+  height: 100vh;
+  padding-bottom: 2rem;
+  margin: 0;
+  padding-top: 3rem;
+}
+
+div {
+  text-align: -webkit-center;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+p{
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+label {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  padding-bottom: 1rem;
+  display: inline-block;
+}
+
+select {
+  width: 21rem;
+  text-align: center;
+  display: flex;
+  height: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.nameMessage{
+  margin: 1rem 0 0 0;
+}
