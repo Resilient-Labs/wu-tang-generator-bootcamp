@@ -29,6 +29,20 @@ const server = http.createServer(function(req, res) {
     
     }
   }
+  else if (page == '/img/wutang.jpg'){
+    fs.readFile('img/wutang.jpg', function(err, data) {
+      res.writeHead(200, {'Content-Type': 'image/jpg'});
+      res.write(data);
+      res.end();
+    });
+  }
+  else if (page == '/img/scroll1.png'){
+    fs.readFile('img/scroll1.png', function(err, data) {
+      res.writeHead(200, {'Content-Type': 'image/png'});
+      res.write(data);
+      res.end();
+    });
+  }
   else if (page == '/css/style.css'){
     fs.readFile('css/style.css', function(err, data) {
       res.write(data);
