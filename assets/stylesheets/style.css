@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background: black;
+    text-align: center;
+    font-family: 'Prompt', Arial, Helvetica, sans-serif;
+}
+
+header, main {
+    font-size: 1.75rem;
+
+}
+
+/* header styling */
+
+.title {
+    font-size: 5rem;
+    color: yellow;
+    font-weight: 700;
+}
+
+header>p {
+    color: white;
+}
+
+
+/* main styling */
+
+h2 {
+    color: yellow;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background: url('../images/wutang.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.survey {
+    background-color: rgb(238,238,228, .8);
+    padding: 1%;
+    font-weight: 700;
+}
+
+/* footer styling */
+
+footer {
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    float: left;
+    margin: 1%;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    transition: color .5s
+}
+
+a:hover {
+    color: yellow;
+}
