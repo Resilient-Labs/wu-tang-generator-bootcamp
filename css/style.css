@@ -18,15 +18,17 @@ body{
 }
 section {
   color: white;
-  background-image: url(../img/scroll1.png);
-  background-position: center;
-  background-repeat: no-repeat;
+  /* background-image: url(../img/scroll1.png); */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
   width: 50%;
   display: grid;
   justify-content: center;
-  margin-top: 242px;
+  margin-top: 166px;
   text-align: center;
+  background-color: rgb(0 0 0 / 50%);
 }
+
 fieldset {
   margin: 10px 0;
 }
