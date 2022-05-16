@@ -1,7 +1,7 @@
 # Wu tang generator
 Created a name generator that uses javascript to pic a name.
 
-Link to project: https://tictacgojo.netlify.app/
+Link to project: https://wutangnombregenerator.netlify.app/
 
 ![c](https://user-images.githubusercontent.com/101950707/168521120-a4024394-33d3-4736-b201-7a7f92672a27.png)
 
