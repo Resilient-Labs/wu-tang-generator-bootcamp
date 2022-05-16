@@ -1,0 +1,75 @@
+*{box-sizing: border-box;}
+
+body{
+  font-family: Arial;
+  text-align: center;
+  background-color: black;
+  color: yellow;
+}
+.bigBackground{
+  background-image: url(../images/wuteezy.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bigBackground section{
+  text-align: left;
+}
+.questionOne label:nth-child(2),
+.questionOne label:nth-child(3),
+.questionOne label:nth-child(4),
+.questionOne label:nth-child(5),
+.questionOne label:nth-child(6){
+  color: white;
+  display: block;
+}
+
+.questionTwo label:nth-child(2),
+.questionTwo label:nth-child(3),
+.questionTwo label:nth-child(4),
+.questionTwo label:nth-child(5),
+.questionTwo label:nth-child(6){
+  color: white;
+  display: block;
+}
+
+.questionThree label:nth-child(2),
+.questionThree label:nth-child(3),
+.questionThree label:nth-child(4),
+.questionThree label:nth-child(5),
+.questionThree label:nth-child(6){
+  color: white;
+  display: block;
+}
+
+
+.questionFour label:nth-child(2),
+.questionFour label:nth-child(3),
+.questionFour label:nth-child(4),
+.questionFour label:nth-child(5),
+.questionFour label:nth-child(6){
+  color: white;
+  display: block;
+}
+
+.questionFive label:nth-child(2),
+.questionFive label:nth-child(3),
+.questionFive label:nth-child(4),
+.questionFive label:nth-child(5),
+.questionFive label:nth-child(6){
+  color: white;
+  display: block;
+}
+
+h1, h2{
+  margin-bottom: 1%;
+  font-size: 50px;
+}
+.bottom{
+  height: 100px;
+  width: auto;
+}
+button{
+  color: black;
+  background: yellow;
+  font-weight: bold;
+}
