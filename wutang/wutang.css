@@ -1,0 +1,10 @@
+ body{
+     background-image: url(https://th.bing.com/th/id/R.8bf47fc0eafaace72e75b38f4c6c2090?rik=z1GaCu34fGIY6w&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fwp1859687.jpg&ehk=YzMdt3HchwGsWHU%2fB2sioMFR2fv11K0PndKgJCUuxII%3d&risl=&pid=ImgRaw&r=0);
+     background-size: cover;
+     text-align: center;
+     color: white;
+    }
+
+    #meal-select, #color-select,#bootcamp-select,#pet-select,#sport-select {
+        font-size: x-large;
+    }
