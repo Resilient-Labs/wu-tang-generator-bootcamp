@@ -1,0 +1,129 @@
+*{box-sizing: border-box;}
+
+body{
+  font-family: Arial;
+  text-align: center;
+  background-color: black;
+  color: goldenrod;
+}
+.logo{
+  height: auto;
+}
+.bg{
+  height: 1100px;
+  background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-size: 900px;
+  background-position: center;
+  text-shadow: 1px 1px 3px #000000;
+}
+.bg section{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 33%;
+  text-align: left;
+}
+
+/* .questionOne label:nth-child(1){
+  margin-top: 1%;
+  margin-bottom: 1%;
+} */
+
+.questionOne label:nth-child(2),
+.questionOne label:nth-child(3),
+.questionOne label:nth-child(4),
+.questionOne label:nth-child(5),
+.questionOne label:nth-child(6){
+  color: white;
+  display: block;
+}
+
+.questionTwo label:nth-child(2),
+.questionTwo label:nth-child(3),
+.questionTwo label:nth-child(4),
+.questionTwo label:nth-child(5),
+.questionTwo label:nth-child(6){
+  color: white;
+  display: block;
+}
+
+.questionThree label:nth-child(2),
+.questionThree label:nth-child(3),
+.questionThree label:nth-child(4),
+.questionThree label:nth-child(5),
+.questionThree label:nth-child(6){
+  color: white;
+  display: block;
+}
+
+img{
+  height: 100px;
+}
+
+.questionFour label:nth-child(2),
+.questionFour label:nth-child(3),
+.questionFour label:nth-child(4),
+.questionFour label:nth-child(5),
+.questionFour label:nth-child(6){
+  color: white;
+  display: block;
+}
+
+.questionFive label:nth-child(2),
+.questionFive label:nth-child(3),
+.questionFive label:nth-child(4),
+.questionFive label:nth-child(5),
+.questionFive label:nth-child(6){
+  color: white;
+  display: block;
+}
+
+button{
+  background-color: goldenrod;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 30px;
+  height: 100px;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  box-shadow: 0 0 0 0 rgb(255, 200, 0);
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(255, 200, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(255, 200, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(255, 200, 0, 0);
+	}
+}
+
+button:hover{
+  animation-play-state: paused;
+  background-color: black;
+}
+
+.noAnimation{
+  animation-play-state: paused;
+  background-color: black;
+  display: none;
+}
+
+h1{
+  margin-bottom: 1%;
+  font-size: 50px;
+}
+.bottom{
+  height: 100px;
+  width: auto;
+}
