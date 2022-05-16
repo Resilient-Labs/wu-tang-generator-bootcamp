@@ -3,8 +3,8 @@
 // create an event listener that checks that all of the option values are filled when the user presses the button
 // OOP => create an object to house the properties and methods
 const wuTangName = {
-// create an array of 24 wu-tang clan names
-    names: ['', '', '', '', '','Sizzilin Toasta','Crypt Walkaz', 'Stark Paddey', 'Chef 21 Mixxin', 'Method Linx', 'BZA', 'Loose Lyrox', 'Beep Beep Mutha', 'Delight Flightz'],
+// create an array of 15 wu-tang clan names
+    names: ['', '', '', '', '','Sizzilin Toasta','Crypt Walkaz', 'Chef Vybz', 'Cultchaz Li', 'BZA', 'King Lerox', 'Booz Shootah', 'Delight Flightz', 'Coddle Cakez', 'Slink daLink', 'Panini Linx'],
 // pull the answers from the form
     getMyName() {
         const questionOne = document.querySelector('#questionOne').value
