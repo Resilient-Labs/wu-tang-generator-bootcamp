@@ -14,4 +14,4 @@ I made two arrays of all the first and last names possible to get generated. I t
 
 ## Lessons Learned:
 
-the select tag allows you to do a drop down list of option items.
+The select tag allows you to do a drop down list of option items.
