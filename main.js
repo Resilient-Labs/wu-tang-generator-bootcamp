@@ -15,7 +15,7 @@ function getName(){
 
 
     let firstNames = ['Little', 'Dippy', 'Cool', 'Deputy','Captain', 'Goofy','Silly', 'Whopper', 'Marble', 'Macdonald', 'Banjo', 'Fluffy', 'Peanut', 'Spunky', 'Yippie', 'Astro', 'Bingo', 'Domino']
-    let secondNames = ['Berrybee', 'Banana', 'Googlehuckle',, 'Dizzy', 'Sir', 'Merryweather', 'Hulanugget', 'Pumpkinton', 'Wrinklehoffer']
+    let secondNames = ['Berrybee', 'Banana', 'Googlehuckle','Sillymuffin', 'Dizzy', 'Sir', 'Merryweather', 'Hulanugget', 'Pumpkinton', 'Wrinklehoffer','Preciousmarble', 'McDonald','Ice Queen', 'Purplepoof']
 
     let firstName = firstNames[indfirstNameObj]
     let lastName = secondNames[indsecondNameObj]
