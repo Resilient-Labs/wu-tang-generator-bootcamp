@@ -1,5 +1,5 @@
 <section>
-  <h1 align="center">Wu-Tang Name Generator/h1>
+  <h1 align="center">Wu-Tang Name Generator</h1>
 <p align="center">
 
   </p>
