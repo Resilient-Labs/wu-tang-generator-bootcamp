@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    margin: auto;
+    width: 50%;
+}
+
+label{
+    display: inline-block;
+} 
+input {
+    display: inline-block;
+}
+
+input[type="radio"]:checked::before {
+    transform: scale(1.5);
+  }
+
+button{
+    margin-left: 20%;
+    margin-top: 5%;
+    height: 40px;
+    width: 20%; 
+    border-radius: 5px;
+    border: 0;
+    background: black;
+    color: white;
+}
