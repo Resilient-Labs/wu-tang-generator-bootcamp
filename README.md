@@ -1,22 +1,17 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+# Toontown Silly Name Generator
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+### Goal: Create a random name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names.
 
-### How to submit your code for review:
+This project is inspired by Towntown's silly name generator, with a twist. In this case you can get your name by just answering a few questions about your personality. 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![name](https://user-images.githubusercontent.com/102037717/171032788-2f303fc5-8610-457d-bcbf-1b11d13fe59f.gif)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+
+**Tech used:** HTML, CSS, JavaScript
+
+This project was not too difficult, but it was another good project to practice JavaScript. I assigned all of the select options to a value, and depending on the total number that came from the options chosen, is what name the user will get when they submit their answers.
+
+## Lessons Learned:
+
+I had fun with this project as it brought me back to my childhood again, and wrapping both the present and the past together. Ultimately, this project was also great practice for JavaScript.

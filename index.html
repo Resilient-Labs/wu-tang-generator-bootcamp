@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toon Silly Name Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="container">
+        <header>
+            <h1>Toontown Silly Name Generator!</h1>
+            <p>Take this simple quiz to see what your   toon's silly name should be.</p>
+        </header>
+        <section class="questions">
+            <label for="favColor">Choose your favorite  color:</label>
+            <select name="color" id="favColor" required>
+                <option value="none" selected disabled  hidden></option>
+                <option value="0">Red</option>
+                <option value="1">Blue</option>
+                <option value="2">Green</option>
+                <option value="3">Yellow</option>
+                <option value="4">Purple</option>
+            </select>
+        </section>
+        <section class="questions">
+            <label for="favPet">Choose an Animal:</label>
+            <select name="pet" id="favPet" required>
+                <option value="none" selected disabled  hidden></option>
+                <option value="0">Dog</option>
+                <option value="1">Cat</option>
+                <option value="2">Duck</option>
+                <option value="3">Horse</option>
+                <option value="4">Bunny</option>
+            </select>
+        </section>
+        <section class="questions">
+            <label for="favDisney">Choose a favorite Disney     character:</label>
+            <select name="disney" id="favDisney" required>
+                <option value="none" selected disabled  hidden></option>
+                <option value="0">Mickey</option>
+                <option value="1">Minnie</option>
+                <option value="2">Donald</option>
+                <option value="3">Goofy</option>
+                <option value="4">Daisy</option>
+            </select>
+        </section>
+        <section class="questions">
+            <label for="favPlace">Choose a Destination:</   label>
+            <select name="place" id="favPlace" required>
+                <option value="none" selected disabled  hidden></option>
+                <option value="0">Paris</option>
+                <option value="1">Costa Rica</option>
+                <option value="2">Australia</option>
+                <option value="3">Japan</option>
+                <option value="4">Dubai</option>
+            </select>
+        </section>
+        <section class="questions">
+            <label for="favFood">Choose a food:</label>
+            <select name="place" id="favFood" required>
+                <option value="none" selected disabled  hidden></option>
+                <option value="0">Paella</option>
+                <option value="1">Rice and Beans</option>
+                <option value="2">Pho</option>
+                <option value="3">Mac n Cheese</option>
+                <option value="4">Brownies</option>
+            </select>
+        </section>
+        <button>Get Name</button>
+        <h2 id="result"></h2>
+    </section>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
