@@ -1,0 +1,69 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background-image: url(../img/wutang.jpg);
+  background-repeat: no-repeat;
+  background-color: center;
+  background-size: cover;
+}
+section {
+  color: white;
+  /* background-image: url(../img/scroll1.png); */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  width: 50%;
+  display: grid;
+  justify-content: center;
+  margin-top: 166px;
+  text-align: center;
+  background-color: rgb(0 0 0 / 50%);
+}
+
+fieldset {
+  margin: 10px 0;
+}
+
+/*Css for button from: https://fdossena.com/?p=html5cool/buttons/i.frag */
+input.button6{
+  display:inline-block;
+  padding:0.7em 1.4em;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.15em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  text-transform:uppercase;
+  font-weight:400;
+  color:black;
+  background-color:white;
+  box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+  text-align:center;
+  position:relative;
+}
+input.button:hover{
+  background-color: purple;
+}
+input.button6:active{
+  top:0.1em;
+}
+@media all and (max-width:30em){
+  input.button6{
+  display:block;
+  margin:0.4em auto;
+  }
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
