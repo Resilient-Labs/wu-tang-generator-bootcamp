@@ -9,7 +9,10 @@
 </head>
 <body>   
     <main>
-        <h1>Wu-Tang Name Generator</h1>
+        <div>
+            <h1>Wu-Tang Name Generator</h1>
+        <img src="assets/wutanglogo.jpeg" alt="">
+        </div>
         <form action="">
             <h3 id="questionOne">What's your go to breakfast</h3>
                 <input type="radio" name="breakfast" value="eggs">
@@ -33,9 +36,6 @@
             
                 <input type="radio" name="rapper" value="aj">
                 <label for="">AJ Tracey</label>
-            
-                <input type="radio" name="rapper" value="drake">
-                <label for="">Drake</label>
             
                 <input type="radio" name="rapper" value="raekwon">
                 <label for="">Raekwon</label>
@@ -61,17 +61,17 @@
             <label for="">No Country For Old Men</label>
             
            <h3>Pick a marvel duo</h3>
-           <input type="radio" name="marvel">
+           <input type="radio" name="marvel" value="iron">
            <label for="">Iron-man & Spider-man</label>
-           <input type="radio" name="marvel">
+           <input type="radio" name="marvel" value="wanda">
            <label for="">Wanda & Vision</label>
-           <input type="radio" name="marvel">
+           <input type="radio" name="marvel" value="hawk">
            <label for="">The Hawkeyes</label>
-           <input type="radio" name="marvel">
+           <input type="radio" name="marvel" value="thor">
            <label for="">Thor & Valkyrie</label>
         </form>
         <button>Get Your Wu-Tang Name</button>
-        <h2 id="placeToPutName"></h2>
+        <h2 id="result"></h2>
     </main>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
