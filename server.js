@@ -34,45 +34,42 @@ const server = http.createServer(function(req, res) {
       'Content-Type': 'application/json'
   });
   
+  let choices = params.choices
+  console.log(choices)
+ 
   let result
-
-  let coin = Math.floor(Math.random() * 2)
-    if (coin === 1){
-      result = 'heads'
-    }else {
-      result = 'tails'
-    }
-
+  if (choices == 'pizza-soccer-The Office'){
+    result = 'Vizual Madman'
+  } else if (choices == 'burger-soccer-The Office') {
+    result = 'Wicked Worlock'
+  }else if (choices == 'burger-basketball-The Office') {
+    result = 'Crazy Ambassador'
+  }else if (choices == 'pizza-basketball-The Office') {
+    result = 'Violent Swami'
+  }else if (choices == 'burger-soccer-Breaking Bad') {
+    result = 'Arrogant Menace'
+  }else if (choices == 'pizza-soccer-Breaking Bad') {
+    result = 'Phantom Demon'
+  }else if (choices == 'pizza-basketball-Breaking Bad') {
+    result = 'Pesty Genius'
+  }else if (choices == 'burger-basketball-Breaking Bad') {
+    result = 'Mad Hunter'
+  }else {
+    result = 'Midnight Killah'
+  }
+  
 
   let object = {
-    coinToss: result
+    results: result
   }
- 
+
+
 
   res.end(JSON.stringify(object));
 
+}
 
-    // if('student' in params){
-    //   if(params['student']== 'leon'){
-    //     res.writeHead(200, {'Content-Type': 'application/json'});
-    //     const objToJson = {
-    //       name: "leon",
-    //       status: "Boss Man",
-    //       currentOccupation: "Baller"
-    //     }
-    //     res.end(JSON.stringify(objToJson));
-    //   }//student = leon
-    //   else if(params['student'] != 'leon'){
-    //     res.writeHead(200, {'Content-Type': 'application/json'});
-    //     const objToJson = {
-    //       name: "unknown",
-    //       status: "unknown",
-    //       currentOccupation: "unknown"
-    //     }
-    //     res.end(JSON.stringify(objToJson));
-    //   }//student != leon
-    // }//student if
-  }//else if
+
   else if (page == '/css/style.css'){
     fs.readFile('css/style.css', function(err, data) {
       res.write(data);
