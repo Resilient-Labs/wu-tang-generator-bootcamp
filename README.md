@@ -1,22 +1,11 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+# 🎤 Project: Wu-Tang Name Generator
 
 ### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+<img width="1673" alt="Screen Shot 2022-10-23 at 11 05 37 PM" src="https://user-images.githubusercontent.com/91163017/197440711-afee82d2-cc13-4ee7-9bf9-f012c18f0668.png">
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML, CSS, JavaScript, Node.js
+
+User is given five questions that determine their Wu-Tang name. I used a select html element to provide a dropdown menu. A number value is created when the user selects an option. Those values recived from the users selection are used as the index for the first and last name arrays declared in JS
