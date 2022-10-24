@@ -1,0 +1,144 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WU TANG!</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container">
+        <div id="instructionDiv">
+            <h1>Generate a Wu Tang Clan name!</h1>
+            <p>
+                Answer the questions and then hit the button to generate a name!
+            </p>
+            <h3>How random do you want your name to be?</h3>
+            <select name="randomnessLevel" id="randomLevel">
+                <option value="">How random are you feeling today?</option>
+                <option value="10">Not very random</option>
+                <option value="30">A lil random</option>
+                <option value="50">Pretty random</option>
+                <option value="200">Random</option>
+                <option value="300">Quite random</option>
+                <option value="500">LOL SO RANDOM EXE DEE ¯\_( ͡° ͜ʖ ͡°)_/¯</option>
+            </select>
+        </div>
+
+        <select id="ChoosePrefix">
+            <option value="">Choose a Prefix</option>
+            <option value="Lil">Lil'</option>
+            <option value="Big">Big</option>
+            <option value="Monster">Monster</option>
+            <option value="Baby">Baby</option>
+            <option value="Kid">Kid</option>
+            <option value="Legend">Poverty stricken</option>
+            <option value="Fresh">Fresh</option>
+            <option value="MC">MC</option>
+            <option value="DJ">DJ</option>
+            <option value="Mister">Mister</option>
+            <option value="Miss">Miss</option>
+            <option value="King">King</option>
+            <option value="Legend">Legend</option>
+            <option value="Killa">Killa</option>
+            <option value="MC">Debilitatingly Depressed</option>
+            <option value="Master">Master</option>
+            <option value="Sensei">Sensei</option>
+        </select>
+
+        <select id="ChooseSuffix">
+            <option value="">Choose a Suffix</option>
+            <option value="Bastard">Bastard</option>
+            <option value="Dirty">Dirty</option>
+            <option value="Mane">Mane</option>
+            <option value="Gurl">Gurl</option>
+            <option value="Kid">Kid</option>
+            <option value="Fresh">Fresh</option>
+            <option value="Player">Player</option>
+            <option value="Shooter">Shooter</option>
+            <option value="Child">Child</option>
+            <option value="Miss">Miss</option>
+            <option value="King">King</option>
+            <option value="The Wanderer">The Wanderer</option>
+            <option value="The Based God">The Based God</option>
+        </select>
+
+
+        <h3>Whats your favorite letter of the aplhabet?</h3>
+        <select name="letterSelect" id="letterSelector">
+            <option value="">Choose a letter!</option>
+            <option value="a">A</option>
+            <option value="b">B</option>
+            <option value="c">C</option>
+            <option value="d">D</option>
+            <option value="e">E</option>
+            <option value="f">F</option>
+            <option value="g">G</option>
+            <option value="h">H</option>
+            <option value="i">I</option>
+            <option value="j">J</option>
+            <option value="k">K</option>
+            <option value="l">L</option>
+            <option value="m">M</option>
+            <option value="n">N</option>
+            <option value="o">O</option>
+            <option value="p">P</option>
+            <option value="q">Q</option>
+            <option value="r">R</option>
+            <option value="s">S</option>
+            <option value="t">T</option>
+            <option value="u">U</option>
+            <option value="v">V</option>
+            <option value="w">W</option>
+            <option value="x">X</option>
+            <option value="y">Y</option>
+            <option value="z">Z</option>
+        </select>
+
+        <section class="main">
+            <fieldset id="checkBoxSurvey">
+                <legend>Please choose the 5 most applicable answers</legend>
+                <p>
+                    <input type="checkbox" class="checkBox" id="tattoo" value="Ballin"> I have tattoos and/or piercings
+                    <br>
+                    <input type="checkbox" class="checkBox" id="happy" value="notBallin"> I am happy with how my life has turned out thus far
+                    <br>
+                    <input type="checkbox" class="checkBox" id="car" value="notBallin"> I make monthly car payments
+                    <br>
+                    <input type="checkbox" class="checkBox" id="work" value="notBallin"> I work full-time
+                    <br>
+                    <input type="checkbox" class="checkBox" id="rich" value="Ballin"> My parents are rich
+                    <br>
+                    <input type="checkbox" class="checkBox" id="food" value="notBallin"> I have a food allergy
+                    <br>
+                    <input type="checkbox" class="checkBox" id="money" value="notBallin"> The solution to end poverty is to give all demographics equal access to freely participate in capitalism
+                    <br>
+                    <input type="checkbox" class="checkBox" id="ballIsLife" value="Ballin"> I frequently play basketball
+                    <br>
+                    <input type="checkbox" class="checkBox" id="grocey" value="notBallin"> I look at price tags at the grocery store
+                    <br>
+                    <input type="checkbox" class="checkBox" id="ballIsLife" value="Ballin"> I dont remember the last time I looked at my bank account
+                    <br>
+                    <input type="checkbox" class="checkBox" id="bugs" value="Ballin"> I try to catch and release bugs when I find them instead of killing them
+                </p>
+            </fieldset>
+
+        </section>
+
+
+        <button>Get Name</button>
+
+        <h3>Your rap name is...</h3>
+        <h2 class="display"></h2>
+
+        <img src="the_whole_squad.jpg" alt="">
+    </section>
+
+    <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>
