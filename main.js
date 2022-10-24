@@ -2,15 +2,28 @@
 
 
 document.querySelector('.submit').addEventListener('click', getName)
-document.querySelector('.reset').addEventListener('click', restart)
+// document.querySelector('.reset').addEventListener('click', restart)
 document.querySelector('.result')
 
-const firstName = ['Crazy','Lazy-assed', 'Annoyin’', 'Mighty', 'Ruff', 'Tuff', 'E-ratic', 'Respected', 'Bittah', 'Fearless', 'Unlucky', 'Master','Foolish','B-loved']
-const lastName = ['Thighs', 'Ninja', 'Beggar', 'Criminal', 'Mastermind', 'Madman', 'Bandit', 'Warlock', 'Menace', 'Demon','Leader','Wanderer','Knight','Genius','Hunter','Bastard' ]
-let randomFirst = Math.floor(Math.random() * firstName.length)
-let randomLast = Math.floor(Math.random() * lastName.length)
-let randomNumberFirst = Math.round(Math.random() * firstName.length)
-let randomNumberLast = Math.round(Math.random() * lastName.length)
+const firstNameOne = ['Crazy','Lazy-assed', 'Annoyin’', 'Mighty', 'Ruff', 'Tuff', 'E-ratic', 'Respected', 'Bittah', 'Fearless', 'Unlucky', 'Master','Foolish','B-loved']
+const lastNameOne = ['Thighs', 'Ninja', 'Beggar', 'Criminal', 'Mastermind', 'Madman', 'Bandit', 'Warlock', 'Menace', 'Demon','Leader','Wanderer','Knight','Genius','Hunter','Bastard' ]
+const firstNameTwo = ['Crazy','Lazy-assed', 'Annoyin’', 'Mighty', 'Ruff', 'Tuff', 'E-ratic', 'Respected', 'Bittah', 'Fearless', 'Unlucky', 'Master','Foolish','B-loved']
+const lastNameTwo = ['Thighs', 'Ninja', 'Beggar', 'Criminal', 'Mastermind', 'Madman', 'Bandit', 'Warlock', 'Menace', 'Demon','Leader','Wanderer','Knight','Genius','Hunter','Bastard' ]
+const firstNameThree = ['Crazy','Lazy-assed', 'Annoyin’', 'Mighty', 'Ruff', 'Tuff', 'E-ratic', 'Respected', 'Bittah', 'Fearless', 'Unlucky', 'Master','Foolish','B-loved']
+const lastNameThree = ['Thighs', 'Ninja', 'Beggar', 'Criminal', 'Mastermind', 'Madman', 'Bandit', 'Warlock', 'Menace', 'Demon','Leader','Wanderer','Knight','Genius','Hunter','Bastard' ]
+let randomFirstOne = Math.floor(Math.random() * firstNameOne.length)
+let randomLastOne = Math.floor(Math.random() * lastNameOne.length)
+let randomFirstTwo = Math.floor(Math.random() * firstNameTwo.length)
+let randomLastTwo = Math.floor(Math.random() * lastNameTwo.length)
+let randomFirstThree = Math.floor(Math.random() * firstNameThree.length)
+let randomLastThree = Math.floor(Math.random() * lastNameThree.length)
+
+let randomNumberOne = Math.round(Math.random() * firstNameOne.length)
+let randomNumberLastOne = Math.round(Math.random() * lastNameOne.length)
+let randomNumberTwo = Math.round(Math.random() * firstNameTwo.length)
+let randomNumberLastTwo = Math.round(Math.random() * lastNameTwo.length)
+let randomNumberThree = Math.round(Math.random() * firstNameThree.length)
+let randomNumberLastThree = Math.round(Math.random() * lastNameThree.length)
 
 
 //https://www.youtube.com/watch?v=0V2Mi16xd04
@@ -54,16 +67,16 @@ function getName() {
    let choice = nameChoice(names)
    
     if (choice === 'a') {
-    document.querySelector('#result').innerText =(`${firstName[randomNumberFirst]} ${lastName[randomNumberLast]}`)
+    document.querySelector('#result').innerText =(`${firstNameOne[randomNumberOne]} ${lastNameOne[randomNumberOne]}`)
         } else if (choice === 'b') {
-            document.querySelector('#result').innerText = (`${firstName[randomNumberFirst]} ${lastName[randomNumberLast]}`)
+            document.querySelector('#result').innerText = (`${firstNameTwo[randomNumberTwo]} ${lastNameTwo[randomNumberLastTwo]}`)
      
         } else if (choice === 'c') {
-            document.querySelector('#result').innerText = (`${firstName[randomNumberFirst]} ${lastName[randomNumberLast]}`)
+            document.querySelector('#result').innerText = (`${firstNameThree[randomNumberThree]} ${lastNameThree[randomNumberLastThree]}`)
         } 
   
     }    
     
-    function restart () {
-        window.location.reload()
-    }
+    // function restart () {
+    //     window.location.reload()
+    // }

@@ -1,8 +1,9 @@
 body {
-    background-image: url(img/group\ 2.jpeg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 100%;
+    background-image: url(img/qBackground.jpeg);
+    background-repeat:repeat-x;
+    background-size: 70%;
+    background-position: 169%;
+    background-color: black;
 }
 
 h1 {
@@ -14,13 +15,17 @@ h1 {
 }
 
 h2 {
-    margin-left: 40%;
+    margin-left: 2%;
     margin-right: auto;
     color: rgb(218,165,32,1);
     font-family: 'Lacquer', cursive;
     font-size: 28px;
     text-decoration: underline;
     
+}
+
+.results {
+    margin-left: 37%;
 }
 
 .directions {
@@ -35,53 +40,9 @@ h2 {
 }
 
  .questionsContainer {
-    margin-left: 14%;
+    margin-left: 35%;
 }
 
-.questionOne {
-    border: 1px solid transparent;
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 80%;
-    height: 40px;
-} 
-
- .questionTwo {
-    border: 1px solid transparent;
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 80%;
-    height: 40px;
-} 
-
-.questionThree {
-    border: 1px solid transparent;
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 80%;
-    height: 40px;
-} 
-
-.questionFour {
-    border: 1px solid transparent;
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 80%;
-    height: 40px;
-}
-
-.questionFive {
-    border: 1px solid transparent;
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 80%;
-    height: 40px;
-} 
 
 span {
  font-size: 20px;
@@ -92,7 +53,7 @@ span {
 }
 
 .submit {
-margin-left: 32%;
+margin-left:38%;
 margin-right: auto;
 margin-top: 3%;
 box-shadow:inset 0px 1px 0px 0px #f29c93;
