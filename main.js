@@ -2,7 +2,7 @@
 
 
 document.querySelector('.submit').addEventListener('click', getName)
-// document.querySelector('.reset').addEventListener('click', restart)
+document.querySelector('.reset').addEventListener('click', restart)
 document.querySelector('.result')
 
 const firstNameOne = ['Crazy','Lazy-assed', 'Annoyin’', 'Mighty', 'Ruff', 'Tuff', 'E-ratic', 'Respected', 'Bittah', 'Fearless', 'Unlucky', 'Master','Foolish','B-loved']
@@ -77,6 +77,6 @@ function getName() {
   
     }    
     
-    // function restart () {
-    //     window.location.reload()
-    // }
+    function restart () {
+        window.location.reload()
+    }
