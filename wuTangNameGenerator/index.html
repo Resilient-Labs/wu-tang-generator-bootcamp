@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wu-Tang Name Generator</title>
+    <link rel="stylesheet" href="./css/style.css" >
+</head>
+<body>
+    <section class="form-area">
+        <form action="">
+            <section class="first-question">
+                <label>What is your name?</label>
+            </section>
+          
+            <input id="name" type="text">
+            <section class="second-question">
+                <label for="elements" name="elements">Pick an element?</label>
+            </section>
+                <input type="radio"  value="wind" name="elements">
+                <label>Wind</label>
+                <input type="radio"  value="water" name="elements">
+                <label>Water</label>
+                <input type="radio"  value="earth" name="elements">
+                <label>Earth</label>
+                <input type="radio"  value="fire" name="elements">
+                <label>Fire</label>
+      
+            <section class="third-question">
+                <label>Pick a NBA team</label>
+            </section>
+                <input type="radio"  value="sixers" name="teams">
+                <label>Philadelphia Sixers</label>
+                <input type="radio"  value="warriors" name="teams">
+                <label for="">Golden State Warriors</label>
+                <input type="radio"  value="celtics" name="teams">
+                <label for="">Boston Celtics</label>
+                <input type="radio" value="heat" name="teams">
+                <label for="">Miami Heat</label>
+            
+                <section class="third-question">
+                    <label>Pick an Anime</label>
+                </section>
+                <input type="radio"  value="naruto" name="shows">
+                <label>Naruto</label>
+                <input type="radio"  value="mha" name="shows">
+                <label for="">My Hero Academia</label>
+                <input type="radio"  value="op" name="shows">
+                <label for="">One Piece</label>
+                <input type="radio"  value="ff" name="shows">
+                <label for="">Fire Force</label>
+            <section class="third-question">
+                <label>Pick a Genre</label>
+            </section>    
+                <input type="radio" value="hip-pop"  name="genres">
+                <label>Hip-Pop</label>
+                <input type="radio"  value="jazz" name="genres">
+                <label for="">Jazz</label>
+                <input type="radio" value="pop" name="genres">
+                <label for="">Rock</label>
+                <input type="radio" value="r&b"  name="genres">
+                <label for="">R&B</label>
+            <section class="third-question">
+                <label>Pick a Vechicle</label>
+            </section>    
+                <input type="radio" value="helicopter"  name="vehicles">
+                <label>Helicopter</label>
+                <input type="radio"  value="yacht" name="vehicles">
+                <label for="">Yacht</label>
+                <input type="radio" value="tank"  name="vehicles">
+                <label for="">Tank</label>
+                <input type="radio" value="truck" name="vehicles">
+                <label for="">Fire Truck</label>
+            <section class="third-question">
+                <button id="generate">Generate</button>
+            </section>     
+            
+        </form>
+    </section>
+    <section class="generate-area">
+        <h1 id="original-name"></h1>
+        <h1 id="generated-name"></h1>
+       
+    </section>
+    <!-- Use via node server -->
+    <script src="./js/main.js"></script>
+    <!-- Use via L*** Server -->
+    <script src="./js/NoneNodeVersion.js"></script>
+</body>
+</html>
