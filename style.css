@@ -1,0 +1,129 @@
+body {
+    background-image: url(img/qBackground.jpeg);
+    background-repeat:repeat-x;
+    background-size: 70%;
+    background-position: 169%;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lacquer', cursive;
+    color: rgb(218,165,32,1);
+    font-size: 60px;
+    font-style: oblique;
+}
+
+h2 {
+    margin-left: 2%;
+    margin-right: auto;
+    color: rgb(218,165,32,1);
+    font-family: 'Lacquer', cursive;
+    font-size: 28px;
+    text-decoration: underline;
+    
+}
+
+.results {
+    margin-left: 37%;
+}
+
+.directions {
+    padding-bottom: 2%
+}
+
+.directions span {
+    margin-left: 35%;
+    margin-right: auto;
+    padding-bottom: 1%;
+    color: rgb(218,165,32,1);
+}
+
+ .questionsContainer {
+    margin-left: 35%;
+}
+
+
+span {
+ font-size: 20px;
+ color: rgb(218,165,32,1);
+ margin-left: 5%;
+ font-style: oblique;
+ font-weight: bold;
+}
+
+.submit {
+margin-left:38%;
+margin-right: auto;
+margin-top: 3%;
+box-shadow:inset 0px 1px 0px 0px #f29c93;
+background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+background-color:#fe1a00;
+border-radius:6px;
+border:1px solid #d83526;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-family:Arial;
+font-size:15px;
+font-weight:bold;
+padding:6px 24px;
+text-decoration:none;
+text-shadow:0px 1px 0px #b23e35;
+}
+    
+.submit:hover {
+    background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+    background-color:#ce0100;
+}
+    
+.sumbit:active {
+position:relative;
+top:1px;
+}
+
+.reset {
+margin-left: 2%;
+margin-right: auto;
+margin-top: 3%;
+box-shadow:inset 0px 1px 0px 0px #f29c93;
+background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+background-color:#fe1a00;
+border-radius:6px;
+border:1px solid #d83526;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-family:Arial;
+font-size:15px;
+font-weight:bold;
+padding:6px 24px;
+text-decoration:none;
+text-shadow:0px 1px 0px #b23e35;
+}
+
+.reset:hover {
+background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+background-color:#ce0100;
+}
+        
+.reset:active {
+position:relative;
+top:1px;
+}
+
+
+    
+.inputQ {
+/* color: rgb(218,165,32,1); */
+color: white;
+font-size: 20px;
+font-style: oblique;
+font-weight: bolder;
+}
+
+
+
+
+
+
