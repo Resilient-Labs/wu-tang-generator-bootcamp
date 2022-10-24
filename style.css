@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(wu.png);
+
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'Nosifer', sans-serif;
+
+}
+
+/* got help on the syntax for linear-gradient from https://cssgradient.io/ */
+h2 {
+    background: linear-gradient(90deg, rgba(254, 235, 0, 1) 30%, rgba(126, 116, 0, 1) 100%);
+    width: fit-content;
+    padding: .5%;
+    margin: 2% 0% 0% 4%;
+    font-size: 1.5em;
+    font-family: 'Nosifer', sans-serif;
+
+}
+
+.container {
+    text-align: center;
+    width: fit-content;
+}
+
+.container span {
+    font-size: 1.2em;
+}
+
+.question {
+    color: yellow;
+}
+
+input[type="radio"] {
+    width: 2.15em
+}
+
+/* got btn idea form  https://codepen.io/yuhomyan/pen/OJMejWJ*/
+.btn {
+    background: rgb(255, 236, 0);
+    border: none;
+    padding: .5%;
+}
+
+.btn:hover {
+    background: rgb(191, 176, 0);
+}
+
+.btn-container {
+    margin: 2% 0% 0% 4%;
+}
