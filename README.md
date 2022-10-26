@@ -1,25 +1,23 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+## Wu-Tang Name Generator
+I made a name generator based on the best rap group of all time, Wu-Tang Clan. 
 
-![image](https://user-images.githubusercontent.com/112201564/197449231-d7060667-0116-4d40-be1b-c83e51511526.png)
-Tech used: JS, Node.JS, HTML, CSS
+**Link to project:** coming soon
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+![image](https://user-images.githubusercontent.com/112201564/197923684-457ef6db-3a06-40bc-83a4-c9ec62403619.png)
 
-### How to submit your code for review:
+## How It's Made:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Tech used:** HTML, CSS, JavaScript, Node.JS
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+So I used built the name generator in two ways: 
+- with vanilla JS
+- with Node.JS
+The vanilla JS takes in your input and decides to give you a fancy name based on your wonderful answers. Based on those answers, you can get name based on a wind type, water type, earth type and fire type. The node js can output an amazing name based on the powers of randomness and object-oriented programming(kinda want to enter a evil laugh here)
+
+
+
+## Lessons Learned:
+
+I learned that node.js is powerful and great for full-stack applications. I learned you have to write a if statement to get any background images to show up properly. Node does not directly interact for the DOM and vanilla js should handle user-input data 
+
+
