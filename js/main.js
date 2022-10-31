@@ -96,5 +96,4 @@ document.querySelector('button').addEventListener('click', () => {
     // Call the fetch
     wutang.retrieveData()
     
-
 })
