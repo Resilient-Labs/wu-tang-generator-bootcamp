@@ -5,4 +5,4 @@
 ![Wu-Tang-Generator-Banner](https://user-images.githubusercontent.com/99233457/197474072-6dd17bb1-8993-4a9b-9a4a-e6d1543e83d2.png)
 
 ### How It's Made: 
-HTML5, CSS, JavaScript
+HTML5, CSS, JavaScript.
