@@ -1,22 +1,14 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+![wu_tang](https://user-images.githubusercontent.com/23227549/201449565-75a29b2b-39c3-4d86-9bf8-05588ae3819e.png)
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Link to site : https://void-wu-tang-name-generator.netlify.app/
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+Tech used: HTML, CSS, JavaScript, Word generator API
+
+An application that allows the user to generate a pseudo random name inspired by the Wu-Tang Clan
+
+Optimizations:
+
+This was really fun to work on. It wasn't enough to just utilize already existing random word generator APIs/tools. Those tools are great but more often than not the words they generate are too random in composition or fail to produce names with any syntactic structure or inherent meaning. I had to come up with ways to assure that the name generated had some semblance of grammatical structure to present a convincing experience for the user. I utilized different dom nodes throughout the app outside of text area inputs to get creative with the way the user was allowed to generate the name. In the end I was also able to implement a feature to assess users current socioeconomic status.
