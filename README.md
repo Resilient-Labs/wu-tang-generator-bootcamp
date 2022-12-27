@@ -1,4 +1,5 @@
 # 🎤 Project: Wu-Tang Name Generator
+Project live: https://wu-tang-generator.up.railway.app/
 
 ### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
 <img width="1673" alt="Screen Shot 2022-10-23 at 11 05 37 PM" src="https://user-images.githubusercontent.com/91163017/197440711-afee82d2-cc13-4ee7-9bf9-f012c18f0668.png">
