@@ -42,6 +42,7 @@ html{
     font-family: "Sedgwick Ave", sans-serif;
     color: rgb(254, 208, 50);
     font-size: 1.2rem;
+    text-shadow: 3px 3px rgb(1, 1, 1);
 }
 h1{
     font-size: 4rem;
