@@ -1,0 +1,52 @@
+* {
+  font-family: 'Finger Paint', cursive;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+:root{
+  /* background-image: url(/Users/valerygonzalez/Desktop/RC/Week-9/wu-tang-generator/wut.webp); */
+  background: orangered;
+}
+.form {
+
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 10% 0 0 0;
+  justify-content: center;
+  display: flex;
+}
+
+  a  {
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+  }
+  .theOne{
+    margin:2%;
+  }
+  button {
+    padding: 6px 16px;
+    border-radius: 10px;
+    background-color: rgb(204, 188, 234);
+    color: rgb(24, 22, 22);
+    border:none;
+    font-size: 18px;
+    transition: 200ms transform;
+    font-weight: 600;
+    margin: 3%;
+    display: flex;
+
+  }
+  button:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+  }
+ 
+  /* will work on the style more */
