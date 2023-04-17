@@ -1,0 +1,37 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html{
+  background: url('../img/bgg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body{
+  /* background-color: rgba(0, 0, 0, 0.399); */
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 170px;
+  margin-left: 300px;
+  /* margin-right: 0; */
+  /* display: inline; */
+}
+button{
+  margin-top: 15px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
