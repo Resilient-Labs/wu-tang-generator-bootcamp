@@ -1,0 +1,71 @@
+
+   * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    background-image: url('celeb.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: red;
+  }
+  h1, h3{
+    text-align: center;
+    font-size: 40px;
+    
+  }
+  
+  button {
+    color: red;
+  }
+  
+  .inputField {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .outputField {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  span {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: yellow;
+    font-size: 40px;
+  }
+  
+  select {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: yellow;
+    background-color: red;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid red;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    color: white;
+    background-color: red;
+  }
+
+  img{
+    display: none;
+  }
+  
