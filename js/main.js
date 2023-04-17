@@ -2,9 +2,12 @@ document.querySelector('#clickMe').addEventListener('click', makeReq)
 
 function makeReq(){
 
-  const userName = document.querySelector("#userName").value;
+  const userName = document.querySelector("#userName").value
+  const userLast = document.querySelector("#userLast").value
+  const userTime = document.querySelector("#userTime").value
+  const userSign = document.querySelector("#userSign").value
 
-  fetch(`/api?student=${userName}`)
+  fetch(`/api?name=${userName}${userLast}${userTime}${userSign}`)
     .then(response => response.json())
     .then((data) => {
       console.log(data);
@@ -26,7 +29,7 @@ function generateWuTangName() {
   const wufirstName = firstNameOptions[Math.floor(Math.random() * firstNameOptions.length)]
   const wulastName = lastNameOptions[Math.floor(Math.random() * lastNameOptions.length)]
   
-  const wuTangName = wufirstName + ' ' + wulastName
+  const wuTangName = `${wufirstName} ${wulastName}`
   
   document.querySelector("#wutangName").textContent =  `Your Wu-Tang Clan name is: ${wuTangName}`
 }

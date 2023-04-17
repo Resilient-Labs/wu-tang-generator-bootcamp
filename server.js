@@ -38,24 +38,17 @@ const server = http.createServer(function(req, res) {
   }
   else if (page == '/api') {
     if('student' in params){
-      if(params['student']){
+      if(params['student']== 'Ashley'){
         res.writeHead(200, {'Content-Type': 'application/json'});
         const objToJson = {
           FirstName: "Ashley",
-          status: "Boss Man",
-          currentOccupation: "Baller"
+          LastName: "unknown",
+          timeOfDay: "unknown",
+          ZodiacSign: "",
+          FavoriteSeason: ""
         }
         res.end(JSON.stringify(objToJson));
       }//student = Ashley
-      else if(params['student'] !=  ){
-        res.writeHead(200, {'Content-Type': 'application/json'});
-        const objToJson = {
-          name: "Ashley",
-          status: "unknown",
-          currentOccupation: "unknown"
-        }
-        res.end(JSON.stringify(objToJson));
-      }//student != Ashley
     }//student if
   }//else if
   else if (page == '/css/style.css'){
