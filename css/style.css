@@ -1,0 +1,80 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 7%;
+  background-image: url(../img/wutang.png);
+  background-size: cover;
+  
+  color: goldenrod;
+  font-size: 200%;
+}
+h1, span , h2{
+  background-color: rgba(0, 0, 0, 0.631);
+}
+section{
+  margin: 1%;
+}
+select{
+
+    width: 120px;
+    height: 30px;
+    border: 1px solid #999;
+    font-size: 18px;
+    color: goldenrod;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 4px 4px  goldenrod;
+  
+}
+button{
+  width: 400px;
+  height: 30px;
+  border: 1px solid #999;
+  font-size: 18px;
+  color: goldenrod;
+  background-color: black;
+  border-radius: 5px;
+  box-shadow: 4px 4px  goldenrod;
+  
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
