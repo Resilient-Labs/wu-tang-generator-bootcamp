@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Concert One', cursive;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 2rem;
+    margin:35px;
+    text-align: center;
+    background: url('cinnamon.png');
+    background-size: cover;
+}
+
+h1{
+    font-size: 6.5rem;
+    color:rgb(75, 78, 224);
+    text-shadow: 3px 3px 1px rgba(235, 96, 228, 0.432);
+}
+
+h2{
+    font-size: 3rem;
+    color:rgb(75, 78, 224);
+    text-shadow: 1px 1px 1px rgba(235, 96, 228, 0.432);
+}
+
+main{
+    background:linear-gradient(rgba(255, 255, 216, 0.411),rgba(255, 224, 224, 0.342),rgba(141, 142, 221, 0.466));
+    border-radius: 30px;
+    width:70%;
+    margin:0 auto;
+    border:10px solid rgb(142, 118, 228);
+    box-shadow: 2px 5px 1px 6px rgba(235, 96, 228, 0.432);
+}
+.displayName{
+    position:fixed;
+    color: black;
+    background: url('display.jpg');
+    background-size: cover;
+    top:0;
+    left: 0;
+    right:0;
+    bottom:0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden{
+    display:none;
+}
+
+button{
+    font-size: 2rem;
+    padding:20px;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+h3{
+    font-size: 6rem;
+    color:rgb(75, 78, 224);
+    text-shadow: 1px 1px 1px rgba(109, 23, 105, 0.432);
+}
+
+label{
+    font-size: 2.5rem;
+}
