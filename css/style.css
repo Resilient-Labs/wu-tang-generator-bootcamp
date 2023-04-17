@@ -1,0 +1,105 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(../img/background1.jpg);
+  background-size: cover;
+  font-family: 'Teko', sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-family: 'Sedgwick Ave Display', cursive;
+  color: black;
+  font-size: 4rem;
+  width: 60%; 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+h3{
+  font-size: 1.5rem;
+  width: 60%; 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.537);
+  color: yellow;
+}
+
+.form{
+  background-color: rgba(0, 0, 0, 0.537);
+  width: 60%;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+span{
+  font-size: 2rem;
+  color: white;
+}
+
+h2{
+  font-size: 4rem;
+  color: red;
+  width: 60%; 
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 4rem;
+  width: 60%; 
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  font-family: 'Sedgwick Ave Display', cursive;
+  background-color: black;
+  border: none;
+  color: yellow;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 30px 2px;
+  cursor: pointer;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
