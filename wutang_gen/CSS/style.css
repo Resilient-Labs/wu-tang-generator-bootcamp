@@ -1,0 +1,70 @@
+/*
+==================================================
+Global Stylings
+==================================================
+*/
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/*
+==================================================
+Layout
+==================================================
+*/
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #d30f0f;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 3.5rem;
+    margin-top: 20px;
+}
+
+form {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+p {
+    font-weight: 700;
+}
+input {
+    margin: 20px 15px;
+}
+
+/*
+==================================================
+Button
+==================================================
+*/
+button {
+    width: 10%;
+    margin: auto;
+    margin-top: 25px;
+    padding: 10px;
+    background-color: #d30f0f;
+    color: #fff;
+    display: block;
+}
+
+/*
+==================================================
+Result
+==================================================
+*/
+#result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #d30f0f;
+}
