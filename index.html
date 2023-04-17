@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Wu-Tang Name Generator</title>
+</head>
+
+<body>
+
+  <h1>New Wu-Tang Name, Who Dis?</h1>
+
+  <!-- combine the first name and last name input to generate the first WT name (based on the given length) and the combination of  color(green, blue, yellow, red, black), star sign (12 options), and season (4 options) to generate the last name  -->
+
+  <form>
+    <label for="q1">What's your first name?</label>
+    <input type="text" id="q1Input" name="q1" maxlength="10"><br>
+
+    <label for="q2">What's your last name?</label>
+    <input type="text" id="q2Input" name="q2" maxlength="10"><br>
+
+    <label for="q3">Work hard, party hard?</label>
+    <select id="partySelection">
+      <option value="1">Party easy, why would you party hard?</option>
+      <option value="2">It's hard to say</option>
+      <option value="3">No</option>
+      <option value="4">Yes!</option>
+      <option value="5">I can neither confirm nor deny</option>
+    </select>
+
+
+<!-- PICK A QUESTION WITH LESS ANSWERS/ OPTIONS -->
+    <label for="q4">Potatoes and molasses?</label>
+    <select id="potatoSelection">
+      <option value="1">If you want some, oh, just ask us</option>
+      <option value="2">They're warm and soft like puppies and socks</option>
+      <option value="3">Oh, potatoes and molasses</option>
+      <option value="4">It's the only thing left on your task list</option>
+      <option value="5">If you can't see 'em, put on your glasses</option>
+    </select>
+
+    <label for="q5">What's your favorite season?</label>
+    <select id="seasonsSelection">
+      <option value="1">The season of Longing</option>
+      <option value="2">Monsoon season</option>
+      <option value="3">The season of War</option>
+      <option value="4">The season of Grief</option>
+    </select>
+
+      <button id="wuMeBtn" type="submit">Wu Me</button>
+      <button id="resetBtn" type="submit">Reset Name Generator</button>
+  </form>
+
+  <div>
+    <h2 id="wuTangNameResult"></h2>
+  </div>
+
+
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
