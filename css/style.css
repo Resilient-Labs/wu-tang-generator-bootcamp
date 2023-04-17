@@ -1,0 +1,28 @@
+body{
+  background-image: url(../img/logo.webp);
+  color: black;
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+
+input, button{
+  border-radius: 6px;
+}
+
+.main{
+  background-color: rgb(255, 210, 12);
+  width: 50%;
+}
+h1{
+  font-size: 36px;
+}
+
+p, h2, h3, h4, h5, h6{
+  font-size: 24px;
+  margin: 15px;
+}
+
+p{
+  font-size: 30px;
+  color: red;
+}
+
