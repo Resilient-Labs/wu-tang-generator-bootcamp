@@ -1,5 +1,13 @@
-# 🎤 Week09 Project: Wu-Tang Name Generator
+# Wu-Tang Name Generator
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+A Wu-Tang Clan name generator. The user has 5 survey questions and, based on their answers, a Wu-Tang name is generated for them.
 
-<img src="project-browser-screenshot.jpg">
+Link to project: https://menahassan-wutang-name-generator.netlify.app/
+
+# How It's Made
+Tech used: HTML, CSS, JavaScript
+
+# Lessons Learned:
+This project allowed me to use JavaScript to manipulate HTML elements and generate random names based on user input. I had fun with creating the arrays in JavaScript and the dropdown options in HTML.
+
+<img src="wutang-browser-screenshot.JPG">
