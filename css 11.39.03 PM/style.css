@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  
+} 
+
+body {
+  text-align: center; 
+  background-color: gray; 
+  font-family: 'Roboto', sans-serif;  
+  
+}
+
+h1 {
+  font-family: 'Tilt Prism', cursive;
+}   
+p {
+  font-size: 20px; 
+}
+
+input {
+  width: 20%; 
+  height: 30px; 
+  font-size: 15px;
+  border-radius: 8%;
+}
+button {
+  margin-top: 4%;
+  height: 43px;
+  width: 200px;
+  font-size: 16px; 
+  border-radius: 5%; 
+  background-color: #ffd700;  
+}  
+.gold-button:hover {
+  background-color: #ffa500; /* Set the button color to orange when you hover over it */
+   box-shadow: 0 0 40px 0 black; /* Add a black box shadow to the button */
+} 
+
+
+.container {
+  display: flex;
+  justify-content: center; /* align the image to the left */
+  align-items: flex-start; /* align the image to the top */
+}
+
+img {
+  max-width: 300px; /* set the maximum width of the image */
+  height: auto; /* maintain the aspect ratio of the image */
+  background-color: #ffd700; 
+  
+} 
+
+
+
+
