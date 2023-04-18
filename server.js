@@ -31,13 +31,13 @@ const server = http.createServer((req, res) => {
   }
   else if (page === '/wutang') { // creates a coin page
     let allNames = ["E-ratic Hunter", "B-loved Dominator", "Phantom Warrior", "Tha Warlock", "Vulgar Lover"]
-    let generatedName;
+    let generatedName = allNames[params.num]
 
-    for (i = 0; i < allNames.length; i++) {
-        if(i === params.newNum) {
-          generatedName = allNames[i]
-        }
-    }
+    // for (i = 0; i < allNames.length; i++) {
+    //     if(i === params.num) {
+    //       generatedName = allNames[i]
+    //     }
+    // }
 
     res.writeHead(200, {'Content-Type': 'application/json'}); // 200 = everything is good, tells the browser how to read the data it is receiving
     // res.write(data) - where you write your data
