@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: gold;
+    font-family: 'Bungee Shade';
+    text-shadow: 1px 1px 1px white;
+}
+
+.group1 {
+    margin-top: 50px;
+}
+
+section {
+    margin-left: 30px;
+}
+
+p {
+    font-size: 1.5rem;
+    color: gold;
+    font-family: "Fredericka the Great";
+
+}
+
+body {
+    background: url("../css/pic/tang.jpeg");
+    background-size: cover;
+
+}
+
+label {
+    color: white;
+}
+
+button {
+    display: block;
+    margin-top: 30px;
+    width: 400px;
+    border-radius: 20px;
+    height: 50px;
+    border: 10px groove goldenrod;
+    background: rgba(72, 71, 71, 0.755);
+    color: white;
+    font-size: 1.4rem;
+    font-family: "Fredericka the Great";
+}
+
+h2 {
+    color: red;
+    float: right;
+    margin-right: 584px;
+    margin-bottom: 57px;
+    font-size: 2rem;
+    font-family: 'Bungee Shade';
+}
