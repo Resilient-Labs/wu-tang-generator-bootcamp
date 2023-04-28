@@ -33,64 +33,11 @@ const server = http.createServer(function (req, res) {
         "Full-Stack Spice",
         "Filler Montana",
       ];
-      // let firstWuName = [
-      //   "Pesky",
-      //   "Icee",
-      //   "Soldja",
-      //   "Mick",
-      //   "Eloquent",
-      //   "Money-Oriented",
-      //   "Machine",
-      //   "Etsy",
-      //   "Lazy",
-      //   "Sega",
-      //   "Angel",
-      //   "Gato",
-      //   "Platano",
-      //   "Full-Stack",
-      //   "Filler",
-      // ];
-      // let lastWuName = [
-      //   "Quan",
-      //   "Homie",
-      //   "Riddler",
-      //   "Entertainer",
-      //   "Prowler",
-      //   "Sugar",
-      //   "Spice",
-      //   "Montana",
-      //   "OOP",
-      //   "DevTools",
-      //   "Cascade",
-      //   "Amor",
-      //   "Moon",
-      //   "Sage",
-      //   "RSS",
-      // ];
       const objToJson = {
         firstWuName: firstWuName[params["generate"]],
-        // lastWuName: lastWuName[params["generate"]],
       };
       res.end(JSON.stringify(objToJson));
-      // if (params["generate"].toLowerCase().split("").includes()) {
-      //   res.writeHead(200, { "Content-Type": "text/javascript" });
-      //   const objToJson = {
-      //     firstWuName: params["generate"].toLowerCase(),
-      //     lastWuName: params["generate"].toLowerCase().split("").reverse().join(""),
 
-      //   };
-      //   res.end(JSON.stringify(objToJson));
-      // } else if (
-      //   params["generate"].toLowerCase() !==
-      //   params["generate"].toLowerCase().split("").reverse().join("")
-      // ) {
-      //   res.writeHead(200, { "Content-Type": "text/javascript" });
-      //   const objToJson = {
-      //     firstWuName: params["generate"].toLowerCase(),
-      //     lastWuName: params["generate"].toLowerCase().split("").reverse().join(""),
-      //   };
-      //   res.end(JSON.stringify(objToJson));
-      // }
       //1,2,3,4,5 points for each question
 
       //[Pesky, Icee, Soldja, Mick, Eloquent, Money-Oriented, Machine, Etsy, Lazy, Sega, Angel, Gato, Platano, Full-Stack, Filler]

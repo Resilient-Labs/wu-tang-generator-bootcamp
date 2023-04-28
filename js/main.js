@@ -80,12 +80,7 @@ function submitResults() {
       firstWuNamePoints = firstWuNamePoints / 2;
     }
   }
-  //  let replacementName = firstWuNamePoints;
-  //   for (let i = 0; i < 15; i++) {
-  //     replacementName - 1;
-  //   }
-  //   firstWuNamePoints = replacementName;
-  // }
+
   generator();
 }
 
