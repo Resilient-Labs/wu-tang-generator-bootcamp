@@ -22,7 +22,7 @@
 /*******************************************/
 
 body {
-
+  padding: 20px;
 }
 
 html{
@@ -67,4 +67,19 @@ label{
 }
 .name, .q1, .q2, .q3, .q4, .q5{
   margin-bottom: 10px;
+}
+.wuName{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  border-radius: 7px;
+  font-size: 2rem;
+}
+#newName{
+  color: yellow
+}
+.wuName h2{
+  color: white;
+  margin-right: 5px;
 }

@@ -46,14 +46,21 @@ const server = http.createServer(function (req, res) {
       // consonats & vowels determine the number of points == vowels are worth 3 points, consenants are worth 1 point.
     }
   } else if (page == "/css/style.css") {
+    console.log("Working");
     fs.readFile("css/style.css", function (err, data) {
-      res.writeHead(200, { "Content-Type": "text/javascript" });
+      res.writeHead(200, { "Content-Type": "text/css" });
       res.write(data);
       res.end();
     });
   } else if (page == "/css/normalize.css") {
     fs.readFile("css/normalize.css", function (err, data) {
-      res.writeHead(200, { "Content-Type": "text/javascript" });
+      res.writeHead(200, { "Content-Type": "text/css" });
+      res.write(data);
+      res.end();
+    });
+  } else if (page == "/images/wubackground.jpg") {
+    fs.readFile("images/wubackground.jpg", function (err, data) {
+      res.writeHead(200, { "Content-Type": "image/jpeg" });
       res.write(data);
       res.end();
     });
