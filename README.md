@@ -1,22 +1,13 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+# 🎤 Wu-Tang Name Generator
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+![Screenshot 2023-05-01 at 12 30 55 PM](https://user-images.githubusercontent.com/76449195/235488244-1382ed6e-9113-4369-ac37-ff7d90d77ad6.png)
 
-### How to submit your code for review:
+## Wu-Tang Clan name generator. Presents the user with 6 survey questions and based on those answers randomly generate their name. The name don't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+This application was made using the Node.js HTTP module, serving static Html, CSS, Javascript, and Image files.
+
+## Lessons Learned:
+
+Manipulating raw node.js has been a lot of fun. It made me appreciate Express exponentially.

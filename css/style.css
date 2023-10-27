@@ -1,0 +1,85 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  padding: 20px;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+html{
+  background: url(../images/wubackground.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+  text-align: center;
+  color: yellow;
+  font-size: 3rem;
+}
+.quiz{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+}
+label{
+  color: white;
+}
+.name, .q1, .q2, .q3, .q4, .q5{
+  margin-bottom: 10px;
+}
+.wuName{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  border-radius: 7px;
+  font-size: 2rem;
+}
+#newName{
+  color: yellow
+}
+.wuName h2{
+  color: white;
+  margin-right: 5px;
+}
