@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UwU Club Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel=" stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>~ UwU Club Name Generator ~</h1>
+
+      <section class="question1">
+        <h2>Do you prefer warm or cold weather?</h2>
+        <input class="a" id="warm" type="radio" value="warm" name="warmCold" />
+        <label for="warm">Warm &#127796</label>
+        <input class="b" id="cold" type="radio" value="cold" name="warmCold" />
+        <label for="cold">Cold &#9924</label>
+      </section>
+
+      <section class="question2">
+        <h2>Walk slow or walk fast?</h2>
+        <input class="a" id="slow" type="radio" value="slow" name="slowFast" />
+        <label for="slow">Slow &#128721</label>
+        <input class="b" id="fast" type="radio" value="fast" name="slowFast" />
+        <label for="fast">Fast &#127939</label>
+      </section>
+
+      <section class="question3">
+        <h2>Horror or Comedy movies?</h2>
+        <input
+          class="a"
+          id="horror"
+          type="radio"
+          value="horror"
+          name="horrorCom"
+        />
+        <label for="horror">Horror &#128561</label>
+        <input
+          class="b"
+          id="comedy"
+          type="radio"
+          value="comedy"
+          name="horrorCom"
+        />
+        <label for="comedy">Comedy &#128514</label>
+      </section>
+
+      <section class="question4">
+        <h2>Coffee or Tea?</h2>
+        <input
+          class="a"
+          id="coffee"
+          type="radio"
+          value="coffee"
+          name="cofTea"
+        />
+        <label for="coffee">Coffee &#9749</label>
+        <input class="b" id="tea" type="radio" value="tea" name="cofTea" />
+        <label for="tea">Tea &#127861</label>
+      </section>
+
+      <section class="question5">
+        <h2>Gold or Silver?</h2>
+        <input class="a" id="gold" type="radio" value="gold" name="golSil" />
+        <label for="gold">Gold &#128192</label>
+        <input
+          class="b"
+          id="silver"
+          type="radio"
+          value="silver"
+          name="golSil"
+        />
+        <label for="silver">Silver &#128191</label>
+      </section>
+
+      <button>Give me a name ♡(◕ᗜ◕✿)</button>
+    </main>
+    <div class="displayName hidden">
+      <h3 class="results"></h3>
+      <button id="reset">Reset</button>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
