@@ -1,6 +1,6 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+# 💸 Week08 Bootcamp2019a Project: Node Coin Flip Game
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+### Goal: Create a simple web application that uses the fs and http modules. Use http to create the server and fs to read your html file. Include vanilla ES6 js in a script tag at the bottom of your html file. Try creating a coin flip guessing game
 
 ### How to submit your code for review:
 
