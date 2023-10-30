@@ -25,7 +25,7 @@ input {
 label {
   margin-left: -1rem;
   margin-right: 3rem;
-  background-color: tan;
+  background-color: white;
   border-radius: 0.5rem;
   padding: 1rem;
   font-size: 2rem;
@@ -40,13 +40,12 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  background-color: tan;
+  background-color: white;
   border-radius: 0.5rem;
 }
 
 #WuTangName {
   border-radius: 0.5rem;
-  padding: 0.5rem;
   font-size: 3rem;
 }
 
