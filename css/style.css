@@ -1,0 +1,72 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+section {
+    background-color: #fff;
+    margin: 9px;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#buttons{
+    text-align: center;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color: yellow;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+button#reset {
+    background-color: #cc0000;
+}
+
+button#reset:hover {
+    background-color: #ee0000;
+}
+
+h3#nameOutput {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+    color: #555;
+    border-top: 2px solid #ddd;
+    margin-top: 20px;
+}
