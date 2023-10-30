@@ -1,0 +1,54 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background-image: url('https://www.rxwallpaper.site/wp-content/uploads/wu-tang-clan-wallpaper-hd-group-hd-wallpapers-pinterest-1.jpg');
+}
+.container{
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  
+ align-items: center;
+}
+.inside{ 
+  justify-content: space-around;
+  display: flex;
+  width: 50%;
+  /* border: 1px solid black; */
+}
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+button{
+ 
+  font-family:' Agbalumo', 'Times New Roman', Times, serif;
+  background-color: gold;
+  color:black;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+h1,span,h2{
+
+ 
+  font-family:'Agbalumo',Arial, Helvetica, sans-serif;
+}
+h2{
+  font-size: 2rem;
+  color: rgb(209, 32, 32);
+}
