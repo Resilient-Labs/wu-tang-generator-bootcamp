@@ -2,7 +2,7 @@
 
 This is my Wu-tang Name Generator project, a cool web application built with HTML, CSS, and JavaScript. It's all about handing the user a random Wu-tang inspired name based on the answers the user's make. Take a look at a screenshot to see my work in action.
 
-![Screenshot](screenshot.png)
+![Wu-Tang](<../../OneDrive/Desktop/wutang new file/css/wuimgread.PNG>)
 
 ## How It's Made
 
