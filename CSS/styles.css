@@ -1,0 +1,39 @@
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+    background: url('../IMAGES/TR_NationalAsset_WuTangNas_SG_1200x628.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#name {
+    display: block;
+}
+
+body {
+    font-size: 1.5rem;
+    background: yellow;
+    margin: 3rem 40rem;
+    border-radius: 10%;
+    opacity: 80%;
+}
+
+h1, 
+h3 {
+    font-size: 3.5rem;
+}
+
+header,
+.questions,
+.buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+button {
+    margin: 1rem;
+    padding: 1rem 3rem;
+}
