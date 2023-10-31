@@ -1,5 +1,7 @@
 # Wu-Tang Name Generator
 
+<img width="1305" alt="Screenshot 2023-10-30 at 9 31 52 PM" src="https://github.com/codedbycass/Wu-Tang-Name-Generator/assets/122684139/7ad2b3ac-1526-4831-b272-903577b064ec">
+
 ## How it's made
 HTML, CSS, JS
 
