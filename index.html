@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wu-Tang Name Generator</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1 id="title">WU-TANG NAME GENERATOR</h1>
+      <h2 id="subtitle">Click <span>start</span> to find out your Wu-Tang name!</h2>
+      <button id="startBtn" class="button">Start</button>
+    </header>
+    <!--  QUESTIONS -->
+    <main class="hidden">
+      <ol>
+        <!-- QUESTION ONE -->
+        <li id="q1" class="q hidden glass">
+          <h3>You're on your way to work and you see one of these... wyd?</h3>
+          <img src="img/nycslush.jpg" alt="nyc-slush">
+          <fieldset id="one">
+            <div>
+              <input type="radio" id="jump" name="q1" value="3" class="choices" required/>
+              <label class="highlight-text" for="jump">Jumping Over It</label>
+            </div>
+            <div>
+              <input type="radio" id="walk" name="q1" value="2" class="choices"/>
+              <label class="highlight-text" for="walk">Walking Through It</label>
+            </div>
+            <div>
+              <input type="radio" id="anotherWay" name="q1" value="1" class="choices"/>
+              <label class="highlight-text" for="anotherWay">Finding Another Way</label>
+            </div>
+          </fieldset>
+          <button class="nextBtn button">Next</button>
+        </li>
+        <!-- QUESTION TWO -->
+        <li id="q2" class="q hidden glass">
+          <h3>Which subway line do you identify with the most?</h3>
+          <img src="img/subway.jpg" alt="subway">
+          <fieldset id="two">
+            <div>
+              <input type="radio" id="aTrain" name="q2" value="2" class="choices"/>
+              <label class="highlight-text" for="aTrain">The A Train</label>
+            </div>
+            <div>
+              <input type="radio" id="zTrain" name="q2" value="1" class="choices"/>
+              <label class="highlight-text" for="zTrain">The Z Train</label>
+            </div>
+            <div>
+              <input type="radio" id="1Train" name="q2" value="3" class="choices"/>
+              <label class="highlight-text" for="1Train">The 1 Train</label>
+            </div>
+          </fieldset>
+          <button class="nextBtn button">Next</button>
+        </li>
+        <!-- QUESTIONS THREE -->
+        <li id="q3" class="q hidden glass">
+          <h3>It's a hot summer day in NYC! How are you cooling down?</h3>
+          <img src="img/piragua.jpg" alt="piragua">
+          <fieldset id="three">
+            <div>
+              <input type="radio" id="piraguas" name="q3" value="2" class="choices"/>
+              <label class="highlight-text" for="piraguas">Piraguas</label>
+            </div>
+            <div>
+              <input type="radio" id="icecream" name="q3" value="1" class="choices"/>
+              <label class="highlight-text" for="icecream">Mister Softee</label>
+            </div>
+            <div>
+              <input type="radio" id="hydrant" name="q3" value="3" class="choices"/>
+              <label class="highlight-text" for="hydrant">The Fire Hydrant</label>
+            </div>
+          </fieldset>
+          <button class="nextBtn button">Next</button>
+        </li>
+        <!-- QUESTION FOUR -->
+        <li id="q4" class="q hidden glass">
+          <h3>Pick a Team (and choose wisely)</h3>
+          <img src="img/teams.jpg" alt="nyc-sports-teams">
+          <fieldset id="four">
+            <div>
+              <input type="radio" id="yankees" name="q4" value="1" class="choices"/>
+              <label class="highlight-text" for="yankees">Yankees</label>
+            </div>
+            <div>
+              <input type="radio" id="mets" name="q4" value="2" class="choices"/>
+              <label class="highlight-text" for="mets">Mets</label>
+            </div>
+            <div>
+              <input type="radio" id="knicks" name="q4" value="3" class="choices"/>
+              <label class="highlight-text" for="knicks">Knicks</label>
+            </div>
+          </fieldset>
+          <button class="nextBtn button">Next</button>
+        </li>
+        <!-- QUESTION FIVE -->
+        <li id="q5" class="q hidden glass">
+          <h3>Pick a borough</h3>
+          <img src="img/boroughs.jpg" alt="nyc-boroughs">
+          <fieldset id="five">
+            <div>
+              <input type="radio" id="bk" name="q5" value="1" class="choices"/>
+              <label class="highlight-text" for="bk">Brooklyn</label>
+            </div>
+            <div>
+              <input type="radio" id="bx" name="q5" value="2" class="choices"/>
+              <label class="highlight-text" for="bx">Bronx</label>
+            </div>
+            <div>
+              <input type="radio" id="queens" name="q5" value="3" class="choices"/>
+              <label class="highlight-text" for="queens">Queens</label>
+            </div>
+            <div>
+              <input type="radio" id="manhattan" name="q5" value="1" class="choices"/>
+              <label class="highlight-text" for="manhattan">Manhattan</label>
+            </div>
+            <div>
+              <input type="radio" id="si" name="q5" value="3" class="choices"/>
+              <label class="highlight-text" for="si">Staten Island</label>
+            </div>
+          </fieldset>
+          <button id="submitBtn" class="button">Get Your Wu-Tang Name</button>
+        </li>
+      </ol>
+      <h2 id="result" class="hidden glass"></h2>
+      <button id="resetBtn" class="button hidden">Restart</button>
+    </main>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
