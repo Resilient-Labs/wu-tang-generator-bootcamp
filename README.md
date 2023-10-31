@@ -1,22 +1,17 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+# 🎤Project: Wu-Tang Name Generator
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+This is my Wu-tang Name Generator project, a cool web application built with HTML, CSS, and JavaScript. It's all about handing the user a random Wu-tang inspired name based on the answers the user's make. Take a look at a screenshot to see my work in action.
 
-### How to submit your code for review:
+![Screenshot](screenshot.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+I used HTML, CSS, and JavaScript along with my favorite front-end framework to create this project. This project was made using Arrays, & objects, I enjoyed creating this project, and I'm excited to share my journey.
+
+## Lessons Learned
+
+As an aspiring engineer, I reinforced my confidence with arrays & objects with this project! if i ever become a rapper i will be using this application to get my name. S/O Donald Glover
+
+## Examples
+
+If you want to see more of my work, feel free to explore my portfolio! [GitHub](https://github.com/Michaelariasdls).
