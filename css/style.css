@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: Syne, sans-serif;
+}
+h1 {
+  color: red;
+  font-size: 6rem;
+  font-weight: 800;
+}
+h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 1%;
+}
+.q > h3,
+p {
+  font-size: 3.2rem;
+}
+.q > h3 {
+  font-weight: 700;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(../img/background.jpg);
+  color: #fff;
+}
+img {
+  width: 55rem;
+  height: 35rem;
+  margin: 2rem 0;
+}
+header {
+  object-fit: fill;
+  width: 100%;
+  margin: 0.5%;
+}
+fieldset {
+  border: 0;
+  display: flex;
+  padding: 2%;
+}
+fieldset label {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+fieldset > div {
+  width: 33.3333%;
+  margin: 1%;
+}
+.button,
+fieldset,
+header,
+li {
+  text-align: center;
+}
+li {
+  height: 75rem;
+  width: 100%;
+  padding: 3%;
+}
+.q > h3,
+img {
+  padding: 1%;
+}
+header,
+main {
+  padding: 1rem;
+}
+main {
+  width: 65%;
+  text-align: center;
+}
+#result {
+  margin: 0.5rem 0;
+}
+.button {
+  align-items: center;
+  appearance: none;
+  background-color: #eef2ff;
+  border-radius: 0.8rem;
+  box-shadow: rgba(255, 0, 0, 0.2) 0 0.2rem 0.4rem 0.7rem 1.3rem -0.3rem 0 0 inset;
+  box-sizing: border-box;
+  color: red;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: Syne, sans-serif;
+  height: 5.6rem;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+  position: relative;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 3rem;
+  font-weight: 700;
+  border-color: red;
+  border-width: 0.2rem;
+}
+.button:focus {
+  outline: 0;
+  box-shadow: #d6d6e7 0 0 0 0.15rem inset,
+    rgba(83, 109, 254, 0.4) 0 0.2rem 0.4rem 0.7rem 1.3rem -0.3rem 0 0 inset;
+}
+.button:hover {
+  box-shadow: rgba(83, 109, 254, 0.4) 0 0.2rem 0.4rem 0.7rem 1.3rem -0.3rem 0 0 inset;
+  transform: translateY(-0.2rem);
+}
+.button:active {
+  box-shadow: #d6d6e7 0 0.3rem 0.7rem inset;
+  transform: translateY(0.2rem);
+}
+.hidden,
+input[type="radio"] {
+  display: none;
+}
+main > h2 {
+  text-align: center;
+  padding: 2%;
+}
+#subtitle > span,
+h2 > span {
+  color: red;
+  display: inline-block;
+  margin: 0.5%;
+}
+h2 > span {
+  display: block;
+  cursor: pointer;
+}
+.glass {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0.8rem 3.2rem 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0.4rem);
+  -webkit-backdrop-filter: blur(0.4rem);
+  border-radius: 1rem;
+  border: 0.1rem solid rgba(255, 255, 255, 0.18);
+}
+.highlight-text {
+  cursor: pointer;
+  padding: 1rem;
+}
+#subtitle > span {
+  text-decoration: underline;
+}
+input[type="radio"]:checked + .highlight-text,
+.highlight-text:hover {
+  border-radius: 10rem;
+  border: 0.5rem solid red;
+}
+
+#resetBtn {
+  margin: 1%;
+}
+
+h2 > span {
+  margin: 2%;
+  font-size: 4rem;
+}
