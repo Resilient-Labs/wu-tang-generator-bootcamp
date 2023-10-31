@@ -2,7 +2,8 @@
 
 <img width="722" alt="wu-tang" src="https://github.com/JacinthaDev/wu-tang/assets/129231721/dc2f5714-4a81-45ef-af3f-8f612a58fa77">
 
-Check out this project here: https://jacinthadev.github.io/Palindrome/
+
+Check out this project here: https://jacinthadev.github.io/wu-tang/
 
 # About this project
 This project uses a survey to generate Wu-Tang name for the user.
