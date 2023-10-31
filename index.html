@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Wu-Tang Clan Generator</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="assets/css/style.css">
+	</head>
+	<body>
+        <h1>Wu-Tang Name Generator</h1>
+        <p id="instructions">Answer each question to receive your Wu-Tang name</p>
+        <section>
+            <form>
+                <p>Anime or Manga?</p>
+                <input type="radio" id = "anime" name = "anime" value = "1">
+                <label for = "">Anime</label>
+                <input type="radio" id = "manga" name = "anime" value = "2">
+                <label for = "">Manga</label>
+                <p>Dr. Pepper or Mr. Pibb?</p>
+                <input type="radio" id = "pepper" name = "soda" value = "3">
+                <label for = "">Dr. Pepper</label>
+                <input type="radio" id = "pibb" name = "soda" value = "4">
+                <label for = "">Mr. Pibb</label>
+                <p>Chai or Matcha?</p>
+                <input type="radio" id = "chai" name = "tea" value = "5">
+                <label for = "">Chai</label>
+                <input type="radio" id = "matcha" name = "tea" value = "6">
+                <label for = "">Matcha</label>
+                <p>Blue Message Bubble or Green Message Bubble?</p>
+                <input type="radio" id = "blue" name = "phone" value = "7">
+                <label for = "">Blue Bubble</label>
+                <input type="radio" id = "green" name = "phone" value = "8">
+                <label for = "">Green Bubble</label>
+                <p>Paperback Books or Hardback Books?</p>
+                <input type="radio" id = "paper" name = "book" value = "9">
+                <label for = "">Paperback</label>
+                <input type="radio" id = "hard" name = "book" value = "10">
+                <label for = "">Hardback</label>
+            </form>
+            <button id="generate">Generate Name</button>
+            <button id = "reset">Reset</button>
+        </section>
+
+        <p id="wutang-name"></p>
+
+		<script type="text/javascript" src="assets/js/main.js"></script>
+	</body>
+</html>
