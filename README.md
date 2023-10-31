@@ -1,22 +1,23 @@
-# ↔️ Week08 Bootcamp2019a Project: Server Side Palindrome Checker
+# 🎤 Wu-Tang Name Generator
 
-### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
+<img width="722" alt="wu-tang" src="https://github.com/JacinthaDev/wu-tang/assets/129231721/dc2f5714-4a81-45ef-af3f-8f612a58fa77">
 
-### How to submit your code for review:
+Check out this project here: https://jacinthadev.github.io/Palindrome/
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+# About this project
+This project uses a survey to generate Wu-Tang name for the user.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+Tech used: HTML, CSS, JavaScript
+
+## Lessons Learned:
+This was my first time using a server to generate a response. It was a little tricky trying to keep track of points based off of survey results and make that correspond to an output. I'd like to practice more with survery and JavaScript.
+
+### Examples:
+Take a look at similar projects!
+
+Palindrome Checker: https://github.com/JacinthaDev/Palindrome
+
+Tic-Tac-Toe: https://github.com/JacinthaDev/Tic-Tac-Toe/tree/answer
+
+Avatar The Last Airbender Slot Machine: https://github.com/JacinthaDev/Slot-Machine/tree/answer
