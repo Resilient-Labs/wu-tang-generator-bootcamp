@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+background: url(https://cdn.dribbble.com/users/2105749/screenshots/11238807/wutang.gif);
+width: 100%;
+background-size: cover;
+margin: 0 auto;
+background-repeat: no-repeat;
+height: 100%;
+}
+
+#wuContainer{
+  margin: 5% 2%;
+  width: 43%;
+  padding: 1.2rem;
+  text-align: center;
+  background: hsla(43, 100%, 45%, 0.9);
+  border-radius: 20px;
+  border: 15px ridge #eee702d0;
+  border-radius: 8px;
+}
+
+label{
+   text-align: right;
+}
+
+select{
+  margin: 1rem 1rem;
+}
+
+button{
+  margin-top: 3rem;
+  border: 1px solid rgb(224,70,58);
+  background: rgb(224,70,58);
+}
+
+option{
+  padding: 30rem;
+}
