@@ -2,21 +2,11 @@
 
 ### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
 
-### How to submit your code for review:
+This project has 4 dropdown menus from which the user can select what they like the most. The categories are food, car, animal, color, and vacation. Once the user selects desired options, the user checks to see what their name is and a two worded name generates. The names are funky, fun, and sometimes even funny.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<img src='img/wu-tang-name-generator-sc.png'>
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Link to project: https://alejandralondev.github.io/wu-tang-generator/ 
+
+How It's Made:
+Tech used: HTML, CSS, JavaScript,

@@ -6,10 +6,58 @@
 *{
   box-sizing: border-box;
 }
-body{
-  background-color: black;
-  color: white;
+
+body {
+  background-image: url('img/wu-tang.png'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-color: #ffcc00; 
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
+
+h1 {
+  color: #000; 
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+label, select {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #000; /* Black text for labels and options */
+}
+
+select {
+  padding: 10px;
+  border: 2px solid #000; /* Black border for dropdowns */
+  background-color: #fff; /* White background for dropdowns */
+}
+
+button {
+  background-color: #000; /* Black button background */
+  color: #ffcc00; /* Wu-Tang Clan Yellow text */
+  font-size: 20px;
+  border: none;
+  padding: 15px 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffcc00; /* Yellow background on hover */
+  color: #000; /* Black text on hover */
+}
+
+#name {
+  font-size: 150px;
+  margin-top: 30px;
+  color: #000; /* Black text for generated name */
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
