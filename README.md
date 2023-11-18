@@ -1,22 +1,41 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+# Wu-Tang Name Generator
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+Create your own Wu-Tang Clan name by answering five survey questions. The generated name will have that distinctive Wu-Tang vibe, adding a touch of hip-hop flair to your persona.
 
-### How to submit your code for review:
+![Project Screenshot](img/project.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## Tech Used
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+- **HTML**
+- **CSS**
+- **JavaScript (Vanilla JS, OOP)**
+
+## How It's Made
+
+This project was developed using HTML for structure, CSS for styling with a touch of glassmorphism to enhance the visual appeal, and Vanilla JavaScript with an Object-Oriented Programming (OOP) approach.
+
+It incorporates a NYC-themed Buzzfeed-style quiz with questions designed to capture the essence of the user. The question card is styled using glassmorphism, and CSS animations add a dynamic touch when the user hovers over potential answer options.
+
+JavaScript is employed to toggle the visibility of the start button, questions, and the generated Wu-Tang name dynamically. The use of OOP allows for reusable code, making it easy to switch out themes, questions, pictures, and answers for different generators.
+
+## Optimizations
+
+- **Object-Oriented Programming (OOP):** Utilized OOP principles for creating modular and reusable code. This facilitates easy customization for different themes, questions, pictures, and answers.
+
+- **Ternary Operators:** Implemented ternary operators to efficiently determine the Wu-Tang name based on user responses, enhancing code readability and conciseness.
+
+## Getting Started 🚀
+
+To discover your Wu-Tang Clan name, follow these steps:
+
+1. **Clone the repository.**
+
+2. **Open the `index.html` file:**
+
+   Open the `index.html` file in your preferred web browser.
+
+3. **Click any box to start the quiz:**
+
+   Begin the NYC-themed Buzzfeed-style quiz by clicking the "Start" button and answering the five survey questions.
+
+Feel free to contribute, report issues, or provide feedback to enhance the Wu-Tang Name Generator.
