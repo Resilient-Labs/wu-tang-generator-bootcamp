@@ -1,0 +1,26 @@
+*{
+box-sizing: border-box;
+}
+
+header{
+background-image: url("../images/wutang.jpg");
+height:300px;
+width:100%;
+background-color: black;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+h1{
+color:red;
+}
+body{
+color:yellow;
+background-color: black;
+text-align: center;
+font-family: 'Bungee Inline', cursive;
+}
+
+select{
+    font-size: 20px;
+    border: 3px solid red;
+}
