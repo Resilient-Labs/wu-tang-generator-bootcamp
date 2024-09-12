@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: yellow;
+  background-image: url(images/kisspng-honey-bee-the-swarm-wu-tang-clan-wutang-clan-5b0e408e19e810.9297511015276606861061.png);
+  background-size: 20%;
+}
+
+h1 {
+  font-family: 'Special Elite', cursive;
+  font-size: 3em;
+  color: yellow;
+  padding: 3%;
+  margin: 0;
+}
+
+.topDescription {
+  padding-left: 4%;
+  margin: 0;
+}
+
+
+p {
+  font-weight: 900;
+}
+
+
+form {
+  padding-left: 4%;
+}
+
+
+section {
+  background-color: black;
+  color: white;
+  width: 57%;
+  margin: auto;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 1.7em;
+}
+
+#hi {
+  padding-left: 4%;
+}
