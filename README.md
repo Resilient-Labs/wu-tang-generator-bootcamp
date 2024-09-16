@@ -1,22 +1,34 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+# 📝 Name Generator Project
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+**Objective:** Create a unique name generator based on 5 survey questions. User answers guide the random name generation process. Note: Names generated can be fun and creative, not necessarily traditional names.
 
-### How to submit your code for review:
+## Overview
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Dive into the whimsical world of names! This application seeks to provide users with a fun and quirky name based on their responses to five curated questions.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+![Name Generator Preview](<img/name gen.png>)
+
+## Technical Details 🛠️
+
+**Utilized Technologies:** HTML, CSS, JavaScript
+
+### Breakdown:
+
+- **HTML:** Houses the 5-question survey form and the section to display the generated name.
+  
+- **CSS:** Gives the application a fun, user-friendly aesthetic. 
+  
+- **JavaScript:** The heart of the name generation:
+  - Gathers user input from the survey.
+  - Uses a combination of arrays and random selection logic to craft the name based on responses.
+  - Presents the quirky name to the user.
+
+## Tweaks & Enhancements 🔧
+
+Initially, I employed a straightforward method of generating names. As the project evolved, I incorporated a more complex system using 10 values. By employing mathematics and calculating possible outcomes based on the survey answers, the name generation became more nuanced and engaging for the user.
+
+## What I Discovered 🌟
+
+- Incorporating user input in creative ways can elevate engagement and fun.
+- Randomization in JavaScript has so many nuances; refining this aspect was both challenging and rewarding.
+
