@@ -1,0 +1,23 @@
+.questions{
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+button{
+  width: 20%;
+  margin-top: 20px;
+  font-size: 19px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.newName , .wuMe{
+  text-align: center
+}
+p{
+  font-size: 23px;
+}
+select{
+  width: 16%;
+  font-size: 19px;
+}
