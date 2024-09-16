@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>WU TANG NAME GENERATOR</title>
+        <meta name="wu-tang name generator" content="name generator, wu-tang clan">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <img src="assets/wutanglogo.png">
+            <h1>WU-TANG NAME GENERATOR</h1>
+        </header>
+        <section class="questionnaire">
+            <label for="age">How old are you?</label>
+                <section clqss="questions">
+                    <input type="radio" name="age" value="under18" required="required">  <18 </input>
+                    <input type="radio" name="age" value="18to25"> 18-25 </input></18>
+                    <input type="radio" name="age" value="26to39"> 26-39 </input></18>
+                    <input type="radio" name="age" value="40plus"> 40+ </input></18>
+                </section>
+                
+            <label for="element">What's your zodiac sign element?</label>
+                <section clqss="questions">
+                    <input type="radio" name="element" value="fire" required="required">Fire</input>
+                    <input type="radio" name="element" value="air">Air</input>
+                    <input type="radio" name="element" value="water">Water</input>
+                    <input type="radio" name="element" value="earth">Earth</input>
+                </section>
+            <label for="music">Favorite Music Genre?</label>
+                <section clqss="questions">
+                    <input type="radio" name="music" value="hipHop" required="required">HipHop</input>
+                    <input type="radio" name="music" value="rnb">RnB</input>
+                    <input type="radio" name="music" value="pop">Pop</input>
+                    <input type="radio" name="music" value="rock">Rock</input>
+                    <input type="radio" name="music" value="country">Country</input>
+                </section>
+            <label for="member">Favorite Wu-Tang Clan Member?</label>
+                <section clqss="questions">
+                    <input type="radio" name="member" value="RZA" required="required">RZA</input>
+                    <input type="radio" name="member" value="GZA">GZA</input>
+                    <input type="radio" name="member" value="olDirtyBastard">Ol' Dirty Bastard</input>
+                    <input type="radio" name="member" value="methodMan">Method Man</input>
+                    <input type="radio" name="member" value="raekwon">Raekwon</input>
+                    <input type="radio" name="member" value="gohstfaceKillah">Ghostface Killah</input>
+                    <input type="radio" name="member" value="inspectahDeck">Inspectah Deck</input>
+                    <input type="radio" name="member" value="uGod">U-God</input>
+                    <input type="radio" name="member" value="mastaKilla">Masta Killa</input>
+                </section>
+            <label for="chaos">Do you like Chaos?</label>
+                <section clqss="questions">
+                    <input type="radio" name="chaos" value="chaos" required="required">Yes</input>
+                    <input type="radio" name="chaos" value="noChaos">No</input>
+                </section>
+                
+
+        </section>
+        <section class="inputs">
+            <input type="text" name="name" id="enteredName" placeholder="Full Name">
+            <input type="submit" name="name" id="submit">
+        </section>
+        <h2>Your Wu-Tang name is <span id="wuTang">loading....</span></h2>
+        
+        <script src="js/main.js" async defer></script>
+        <script src="server.js" async defer></script>
+    </body>
+</html>
