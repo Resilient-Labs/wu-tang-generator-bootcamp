@@ -1,0 +1,76 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+
+html {
+  font-size: 62.5%;
+}
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+  background: black;
+
+}
+
+header {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-family: 'Acme', sans-serif;
+  padding-top: 3rem;
+}
+
+#container {
+  text-align: center;
+  color: white;
+  font-size: 2.7rem;
+  font-family: 'Acme', sans-serif;
+  padding-top: 5rem;
+
+}
+
+#result {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-family: 'Acme', sans-serif;
+  padding-top: 5rem;
+
+
+}
+
+#placeName {
+  font-size: 4rem;
+  color: rgba(246, 213, 89, 1);
+}
+
+button {
+  border: none;
+  font-size: 3rem;
+  background:  rgba(246, 213, 89, 1);
+
+}
+
+select {
+  background:  rgba(246, 213, 89, 1);
+  margin-top: 2rem;
+}
