@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Wu-Tang Name Generator</title>
+  </head>
+
+  <body>
+    <h1>Wu-Tang Name Generator</h1>
+    <!-- //create 5 survey questions with answers to choose from  -->
+    <!-- // add a drop down list and create id for that so we can do the query selectors for it on JS -->
+    <section class="container">
+      <section class="first">
+        <label for="money">What do you refer to money as?:</label>
+        <select type="money" id="money">
+          <option value="">--Choose an option--</option>
+          <option value="0">Money</option>
+          <option value="1">Green</option>
+          <option value="2">Cash</option>
+        </select>
+      </section>
+      <section class="second">
+        <label for="activity">What's Your Favorite Thing To Do?:</label>
+        <select type="activity" id="activity">
+          <option value="">--Choose an activity--</option>
+          <option value="0">Go For A Walk</option>
+          <option value="1">Spit Hot Fire</option>
+          <option value="2">Play Video Games</option>
+        </select>
+      </section>
+      <section class="third">
+        <label for="cereal">What's your dream vacation?:</label>
+        <select type="cereal" id="cereal">
+          <option value="">--Choose an vacation--</option>
+          <option value="0">A week on a island</option>
+          <option value="1">A week in the mountains</option>
+          <option value="2">A week in at home</option>
+        </select>
+      </section>
+      <section class="fourth">
+        <label for="swag"> Only choose one:</label>
+        <select type="swag" id="swag">
+          <option value="">--Choose an option--</option>
+          <option value="0"> 1,000,000 Dollars</option>
+          <option value="1"> Have great health and live until your 104 years old</option>
+          <option value="2">Be in love three different times in your life</option>
+        </select>
+      </section>
+      <section class="fifth">
+        <label for="line">What's your dream Car Make?:</label>
+        <select class="line" id="line">
+          <option value="">--Choose a Car--</option>
+          <option value="0">Lamborghini</option>
+          <option value="1">Tesla</option>
+          <option value="2">ferrari</option>
+        </select>
+      </section>
+      <!-- // add a submit button  -->
+      <section class="resultButton">
+        <p class="wuTangName"></p>
+        <button class="button" type="button">click to generate name</button>
+      </section>
+    </section>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
