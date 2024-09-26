@@ -1,0 +1,137 @@
+h1 {
+  color: blue;
+}
+
+#mainGrid {
+  background-image: url("https://2.bp.blogspot.com/-WgPsCjo2WwY/Uvei3dYOIzI/AAAAAAAAEPA/ArGsWNmC6tM/s1600/black_and_white_graffiti_by_towardsbrightfuture-d5dqdmt.jpg");
+  height: 850px;
+  background-size: cover;
+}
+@font-face {
+  font-family: 'tags';
+  src:url(../fonts/tags.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'beatstreet';
+  src:url(../fonts/doggy/doggy.otf);
+  font-style: normal;
+  font-weight: 100;
+}
+#wupet {
+  font-family: beatstreet;
+  font-size: 80px;
+  background: white;
+}
+
+@font-face {
+  font-family: 'streetArt';
+  src:url(../fonts/from_street_art/fromStreetArt.otf);
+  font-style: normal;
+  font-weight: 100;
+}
+#wufood {
+  font-family: streetArt;
+  font-size: 80px;
+  color: pink;
+  background: black;
+}
+
+@font-face {
+  font-family: 'treat';
+  src:url(../fonts/graffiti_treat/graffitiTreat.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+#wutv {
+  font-family: treat;
+  font-size: 100px;
+  color:greenyellow;
+  background: black;
+}
+
+@font-face {
+  font-family: 'writer';
+  src:url(../fonts/street_writer/streetWriters.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+#wumusic {
+  font-family: writer;
+  font-size: 80px;
+  background: white;
+}
+@font-face {
+  font-family: 'two';
+  src:url(../fonts/streetTwo/streetTwo.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+#wumovie{
+  font-family: two;
+  font-size: 90px;
+  color: orangered;
+  background: black;
+}
+@font-face {
+  font-family: 'zit';
+  src:url(../fonts/zit_graffiti/zit.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+#wupower {
+  font-family: zit;
+  font-size: 100px;
+  color: yellow;
+  background: black;
+}
+@font-face {
+  font-family: 'gum';
+  src:url(../fonts/bubblegums/gum.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+/* @font-face {
+  font-family: 'sister';
+  src:url(../fonts/sister.ttf);
+  font-style: normal;
+  font-weight: 100;
+} */
+#title {
+  font-size: 65px;
+  font-family: sprayerz;
+  background: black;
+  color: white;
+  width: 55%;
+}
+#response {
+  font-size: 70px;
+  font-family: gum;
+  background: black;
+  height: 95px;
+}
+
+@font-face {
+  font-family: 'sprayerz';
+  src:url(../fonts/sprayerz/sprayz.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+select, button {
+	/* box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2; */
+	border-radius:15px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Courier New;
+	font-size:14px;
+	font-weight:bold;
+	padding:10px 14px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
