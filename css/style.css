@@ -1,0 +1,56 @@
+
+*{
+    box-sizing: border-box;
+    text-align:center;
+    background-color: black;
+    color: white;
+  }
+
+
+  html {
+    font-size: 62.5%;
+  }
+
+  h3{
+    font-size: 2rem;
+    color: #e2a42b;
+    margin-bottom: 0;
+    font-family: Nanum Gothic Coding;
+  }
+
+  label{
+    font-size: 1.7rem;
+    margin-top: 0;
+    font-family: Nanum Gothic Coding;
+  }
+
+  .resultSection{
+    font-family: Nanum Gothic Coding;
+    margin-top: 15px;
+  }
+
+  #results{
+    color: #e2a42b;
+    font-size: 4rem;
+  }
+
+  h1{
+    font-size: 3rem;
+    font-family: Rock Salt;
+  }
+
+  h2{
+    font-size: 2.3rem;
+    margin: 0;
+    font-family: Nanum Gothic Coding;
+    
+  }
+
+  #button{
+    margin-top: 10px;
+    color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    color: #e2a42b;
+    font-family: Nanum Gothic Coding;
+  }
