@@ -1,0 +1,13 @@
+img {
+    width: 40rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+input, select {
+    margin-bottom: 5px;
+}

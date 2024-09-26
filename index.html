@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Wu-Tang Name Generator</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>Wu-Tang Name Generator</h1>
+    <p>Answer the following questions and we'll decide if you're worthy of a Wu-Tang Name.</p>
+
+    <form>
+        <label>Enter your first name:</label>
+        <input type="text" id="firstName" required>
+
+        <label>Enter your last name:</label>
+        <input type="text" id="lastName" required>
+
+        <label>Enter your age:</label>
+        <input type="number" id="age" required>
+
+        <label>What's your favorite food?</label>
+        <input type="text" id="food" required>
+
+        <label>Left or right twix?</label>
+        <select required>
+            <option value="10">Left</option>
+            <option value="-10">Right</option>
+        </select>
+
+        <button type="button" name="button">Wu Me</button>
+    </form>
+
+    <h2 id="wuName"></h2>
+
+    <script type="text/javascript" src="/js/main.js"></script>
+</body>
+</html>
