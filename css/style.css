@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url("https://wallpapercave.com/wp/wp2729921.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  color: white;
+  font-size: 45px;
+  font-family: monospace;
+  margin-left: 20%;
+}
+label, p{
+  color: white;
+}
+.holder{
+  margin-left: 10%;
+  margin-top: 10%;
+  width: 70%;
+}
+.hold{
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-family:monospace;
+  font-weight: lighter;
+}
+p{
+  font-size: 40px;
+  font-family: monospace;
+
+}
+.red{
+  color: red;
+}
+.blue{
+  color: blue;
+}
+.cat{
+  color: green;
+}
+.dog{
+  color: orange;
+}
+.horror{
+  color: purple
+}
+.comedy{
+  color: pink;
+}
+.summer{
+  color: yellow;
+}
+.winter{
+  color: lightblue;
+}
+option{
+  font-size: 35px;
+}
+button{
+  font-size: 25px;
+  margin-left: 20%;
+  background-color: yellow;
+  border-radius: 10px;
+  font-family: monospace;
+}
