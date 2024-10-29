@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="This is where your description goes" />
+  <meta name="keywords" content="one, two, three" />
+  <link rel="icon" type="image/png" size="32x32" href="./img/favicon.png">
+  <title>Wu-Tang Name Generator</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Gluten:wght@100..900;700&family=Skranji:wght@400;700&display=swap"
+    rel="stylesheet">
+  <!-- external CSS link -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <h1>Wu-Tang Name Generator</h1>
+  <p>Answer the below questions and get a generated Wu-Tang name </p>
+  <form>
+    <!-- question 1 -->
+    <label for="question1"> What is your favorite color?</label>
+    <input type="text" id="question1" required>
+    <!-- question 2 -->
+    <label for="question2">What city were you born?</label>
+    <input type="text" id="question2" required>
+    <!-- question 3 -->
+    <label for="question3">What's your zodiac sign</label>
+    <input type="text" id="question3" required>
+    <!-- question 4 -->
+    <label for="question4">What's your favorite food?</label>
+    <input type="text" id="question4" required>
+    <!-- question 5 -->
+    <label for="question5">What's your favorite music genre</label>
+    <input type="text" id="question5" required>
+    <button type="submit" id="generateBtn">Generate Name</button>
+  </form>
+  <section>
+    <h2>Wu-Tang Name: <span id="generatedName"></span></h2>
+  </section>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
