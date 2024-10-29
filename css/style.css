@@ -1,0 +1,38 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body{
+  font-size: 20px;
+  margin-top: 20px;
+  color: gold;
+  background-color: black;
+  text-align: center;
+}
+
+header{
+  border: 2px solid black;
+}
+
+.result{
+  color: gold;
+}
