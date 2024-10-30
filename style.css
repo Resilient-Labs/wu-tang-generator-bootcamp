@@ -1,0 +1,47 @@
+body{
+    background: rgba(0, 0, 0, 0.9);
+    color: #FFC61F;
+    text-align: center;
+    font-weight: bold;
+    
+}
+@font-face {
+    font-family: "Bamboo";
+    src: url(./Bamboo\ Regular.ttf)
+}
+h1.customfont{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Bamboo", Helvetica, sans-serif;
+   
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Bamboo", sans-serif;
+}
+label{
+    font-size: 25px;
+    display: block;
+}
+input{
+    height: 30px;
+    width: 30%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+  
+}
+button{
+    display: block;
+    height: 40px;
+    width: 20%;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    background: #FFC61F;
+    font-size: 15px;
+    font-weight: bold;
+}
