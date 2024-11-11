@@ -7,7 +7,7 @@
 <li>A bank of adjectives are assigned to the user at random based on gender i.e male, female, and other(neutral).</li>
 <li>Another bank of adjectives are assigned based on location. For example users in NYC would receive the added location adjective of "artistic", while users in Texas would receive Brave" </li>
 <li>There were three categories for users to receive a bank of randomly genrated nouns.The groups were under the age of 20, 20-40, or over 40 years old.</li>
-<li>Users with first names conntaining certain letters were assigned additional adjectives in their banks. </li>
+<li>Users with first names containing certain letters were assigned additional adjectives in their banks. </li>
 <li>Users with last names shorter than 4 characters or longer than 8 charcaters recived additional adjectives in their banks</li>   
 <li>The final Wu Tang name was assigned based on the location adjective, random adjective, and random noun generated./li>
 </ul>
