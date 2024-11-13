@@ -11,3 +11,5 @@
 <li>Users with last names shorter than 4 characters or longer than 8 charcaters recived additional adjectives in their banks</li>   
 <li>The final Wu Tang name was assigned based on the location adjective, random adjective, and random noun generated./li>
 </ul>
+
+![Screenshot 2024-11-11 at 3 31 04 PM](https://github.com/user-attachments/assets/e4a5fae4-718d-410a-aa72-1efe250ea1e2)
