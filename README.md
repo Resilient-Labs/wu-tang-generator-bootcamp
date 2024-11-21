@@ -1,22 +1,15 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+# 🎤 Project: Wu-Tang Name Generator
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+### Goal: Wu-Tang Clan name generator that present's the user with 5 survey questions and based on those answers randomly generate their name. 
+<ul>
+<li>User answers 5 personal questions about their first name, last name, genender,age, and location. </li>
+<li>The program assigns them a name based on conditions set in JS.</li>
+<li>A bank of adjectives are assigned to the user at random based on gender i.e male, female, and other(neutral).</li>
+<li>Another bank of adjectives are assigned based on location. For example users in NYC would receive the added location adjective of "artistic", while users in Texas would receive Brave" </li>
+<li>There were three categories for users to receive a bank of randomly genrated nouns.The groups were under the age of 20, 20-40, or over 40 years old.</li>
+<li>Users with first names containing certain letters were assigned additional adjectives in their banks. </li>
+<li>Users with last names shorter than 4 characters or longer than 8 charcaters recived additional adjectives in their banks</li>   
+<li>The final Wu Tang name was assigned based on the location adjective, random adjective, and random noun generated./li>
+</ul>
 
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+![Screenshot 2024-11-11 at 3 31 04 PM](https://github.com/user-attachments/assets/e4a5fae4-718d-410a-aa72-1efe250ea1e2)
