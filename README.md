@@ -13,3 +13,9 @@
 </ul>
 
 ![Screenshot 2024-11-11 at 3 31 04 PM](https://github.com/user-attachments/assets/e4a5fae4-718d-410a-aa72-1efe250ea1e2)
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript 
