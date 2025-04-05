@@ -1,0 +1,26 @@
+* {
+    box-sizing: content-box;
+    background-color:antiquewhite;
+
+}
+
+button {
+    border-radius: 10px;
+    padding: 7px;
+    background-color: aliceblue;
+   
+   
+}
+
+.surveyContainer {
+    margin: 0 auto;
+    width: 55%;
+}
+
+.question {
+    border-top: 1px solid gainsboro;
+}
+
+.Wu-Tang {
+    padding: 5px;  
+}
