@@ -1,0 +1,43 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Luxurious Roman';
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  background-image: url('/img/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+div {
+  margin: 10px;
+}
+
+
+button {
+  padding: 10px 20px;
+  background-color: rgb(215, 195, 105);
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+input {
+  padding: 10px 10px;
+}
+
+.red {
+  color: red;
+}
