@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    font-size: 2em;
+
+}
+
+h2 {
+    display: inline-block;
+}
+
+input,
+label {
+    display: block;
+    text-align: center;
+    margin: auto;
+
+}
