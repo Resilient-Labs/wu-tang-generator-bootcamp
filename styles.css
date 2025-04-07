@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+    background-image: url(background.jpg);
+    background-size: 100%;
+    margin: 50px;
+    color: white;
+}
+
+.space{
+    margin: 20px;
+}
