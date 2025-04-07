@@ -1,0 +1,32 @@
+h1 {
+  color: red;
+}
+
+body {
+  background-color: lightgray;
+}
+div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#clanName {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  margin-right: .5em;
+  color: blueviolet;
+  font-size: 2em;
+}
+.selections{
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+p{
+  font-weight: bold;
+}
