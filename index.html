@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Name Generator</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <main>
+        <h1>Garden Name Generator</h1>
+        <section">
+            <h3></h3>
+        </section>
+
+        <fieldset>
+            <legend>What is your name?</legend>
+            <input id="name" name="name" type="text" placeholder="Name" required/>
+        </fieldset>
+        <fieldset>
+            <legend>What is your age?</legend>
+            <input id="age" type="number" placeholder="Age"/>
+        </fieldset>
+        <fieldset>
+            <legend>What is your favorite color?</legend>
+            <select name="colors" id="color-select" required>
+                <option value="">Please choose a color</option>
+                <option value="red">Red</option>
+                <option value="orange">Orange</option>
+                <option value="yellow">Yellow</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="other">Other</option>
+            </select>
+        </fieldset>
+        
+        <fieldset>
+          <legend>Do you like bugs?</legend>
+          <div>
+            <input type="radio" id="yes" name="bugs" value="yes" checked/>
+            <label for="yes">Yes</label>
+          </div>
+          <div>
+            <input type="radio" id="no" name="bugs" value="no"/>
+            <label for="no">No</label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>What is your favorite flower?</legend>
+            <select name="flowers" id="flower-select" required>
+            <option value="">Please choose a flower</option>
+            <option value="rose">Rose</option>
+            <option value="sunflower">Sunflower</option>
+            <option value="peony">Peony</option>
+            <option value="lily">Lily</option>
+            <option value="tulip">Tulip</option>
+            <option value="other">Other</option>
+            </select>
+        </fieldset>
+        <button id="generateName">Submit</button>
+    </main>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
