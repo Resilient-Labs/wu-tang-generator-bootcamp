@@ -1,0 +1,61 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  font-family: Arial, sans-serif;
+  color: black;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/* form/inputs */
+form {
+  margin: 0;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+input, select {
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+/* Button styling */
+button {
+  margin-top: 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+/* Result area */
+#result {
+  font-size: 20px;
+  margin-top: 30px;
+  color: red;
+}
