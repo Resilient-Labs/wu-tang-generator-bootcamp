@@ -191,5 +191,5 @@ function getWuName() {
         fullName.push(cityWords[cityIndex]);
     }
 
-    document.getElementById('result').textContent = fullName.join(' ');
+    document.getElementById('result').textContent = `${firstName} from this day foward you wiil be know as ${fullName.join(' ')}`;
 }
