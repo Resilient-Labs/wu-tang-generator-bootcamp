@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Wu-Tang name generator ">
+  	<meta name="keywords" content="name, generator, wu-tang">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Wu-Tang Generator</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="/reset">
+		<link rel="stylesheet" href="/styles">
+	</head>
+	<body>
+		<main>
+			<h2>Wu-Tang Name Generator</h2>
+			<form action="/generator" method="POST">
+				<fieldset>
+					<legend>What's your spirit animal?</legend>
+					<input type="radio" name="animal" id="dog" value="dog">
+					<label for="dog">Dog</label>
+					<input type="radio" name="animal" id="cat" value="cat">
+					<label for="cat">Cat</label>
+					<input type="radio" name="animal" id="rat" value="rat">
+					<label for="rat">Rat</label>
+				</fieldset>
+				<fieldset>
+					<legend>What's your element?</legend>
+					<input type="radio" name="element" id="water" value="water">
+					<label for="water">Water</label>
+					<input type="radio" name="element" id="fire" value="fire">
+					<label for="fire">Fire</label>
+					<input type="radio" name="element" id="earth" value="earth">
+					<label for="earth">Earth</label>
+				</fieldset>
+					<label for="number">What's your favorite number?</label>
+					<input type="number" name="number" id="number" min="1" required>
+					<label for="character">Which fictional character influenced you?</label>
+					<input type="text" name="character" id="character" required>
+					<label for="power">What's your super power?</label>
+					<input type="text" name="power" id="power" required>
+					<button type="submit">Generate</button>
+			</form>
+		</main>
+	</body>
+</html>

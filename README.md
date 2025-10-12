@@ -1,22 +1,25 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+## Description
+When a user fills out a survey form, the submitted data is processed on the server, and a generated name is returned.
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+[Try the Live project!](https://wu-tang-generator.onrender.com/)
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<a href="https://wu-tang-generator.onrender.com/" target="_blank" ><img width="398" alt="Form" src="https://github.com/user-attachments/assets/eb112e95-dd26-41ff-b534-1c6a89ad6bce" />
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+<img width="398" alt="generated name" src="https://github.com/user-attachments/assets/5a0b57a2-daa1-49cb-9818-f44115ac7b8c" />
+</a>
+
+
+### Tech used 
+
+ - `HTML`
+ - `CSS`
+ - `JavaScript`
+ - `Node.js`
+
+### Lessons Learned
+
+- Sending form data to the server.
+- Data from the browser comes in chunks and is handled by the method `on()`.
+- I can use `node --watch server` now insead of nodemon.
+

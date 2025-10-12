@@ -1,0 +1,89 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+main{
+  width: 80%;
+  height: 100vh;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+form{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  box-shadow: 5px 5px black;
+  padding: 20px;
+}
+
+fieldset{
+  padding: 20px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+input{
+  margin: 10px 0;
+  padding: 5px;
+  font-size: 1rem;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+h2{
+  font-size: 2rem;
+}
+.generated{
+  font-size: 20vw;
+  text-align: center;
+}
+
+button{
+  padding: 5px;
+  border-radius: 0;
+  background-color: black;
+  color: white;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 460px ) {
+h2{
+  font-size: 1.5rem;
+}
+main{
+  width:282px ;
+}
+  
+}
