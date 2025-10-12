@@ -15,11 +15,11 @@
   - Anything specific on which you want feedback!
 
 Example:
-```
+
 I completed the challenge: 5
 I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+I feel good about the code because it works. Could use some cleaning up though.
+
 Wu-Tang name generator
 
 This project allows you to answer a few simple survery questions, and then youll get back your wu-tang name!
