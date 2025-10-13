@@ -3,7 +3,7 @@
 A gritty, graffiti-styled quiz app that creates a unique Wu-Tang Clan-inspired alias.  
 Answer five quick questions and reveal your Shaolin alter-ego.
 
-[Link to project](replace with your live demo link)  
+[Link to project](https://wu-tang-generator.vercel.app/)  
 
 ![screenshot](img/wu-tang.png "Wu-Tang Name Generator")
 
