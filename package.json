@@ -1,0 +1,23 @@
+{
+  "name": "wutang-name",
+  "version": "1.0.0",
+  "description": "name generator",
+  "keywords": [
+    "name",
+    "generator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "wutang-name"
+  },
+  "license": "Unlicense",
+  "author": "winnie",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "dependencies": {
+    "figlet": "^1.9.3"
+  }
+}
