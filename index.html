@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=DM+Sans:wght@400;700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <main class="container">
+        <h1 class="title">Wu-Tang Name Generator</h1>
+        <p class="subtitle">Five quick questions for your Shaolin alter-ego</p>
+
+        <form id="survey" class="card">
+            <fieldset>
+                <legend>1) Pick your element</legend>
+                <label><input type="radio" name="element" value="fire" required /><span>Fire</span></label>
+                <label><input type="radio" name="element" value="water" /><span>Water</span></label>
+                <label><input type="radio" name="element" value="air" /><span>Air</span></label>
+                <label><input type="radio" name="element" value="earth" /><span>Earth</span></label>
+                <label><input type="radio" name="element" value="lightning" /><span>Lightning</span></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>2) Choose your animal spirit</legend>
+                <label><input type="radio" name="animal" value="tiger" required /><span>Tiger</span></label>
+                <label><input type="radio" name="animal" value="panther" /><span>Panther</span></label>
+                <label><input type="radio" name="animal" value="dragon" /><span>Dragon</span></label>
+                <label><input type="radio" name="animal" value="wolf" /><span>Wolf</span></label>
+                <label><input type="radio" name="animal" value="serpent" /><span>Serpent</span></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>3) Select your fighting style</legend>
+                <label><input type="radio" name="style" value="calm" required /><span>Calm &amp;
+                        Calculated</span></label>
+                <label><input type="radio" name="style" value="fast" /><span>Fast &amp; Wild</span></label>
+                <label><input type="radio" name="style" value="silent" /><span>Silent but Deadly</span></label>
+                <label><input type="radio" name="style" value="strategic" /><span>Strategic &amp; Precise</span></label>
+                <label><input type="radio" name="style" value="power" /><span>Power Through Everything</span></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>4) Pick a color that fuels your energy</legend>
+                <label><input type="radio" name="color" value="gold" required /><span>Gold</span></label>
+                <label><input type="radio" name="color" value="red" /><span>Red</span></label>
+                <label><input type="radio" name="color" value="black" /><span>Black</span></label>
+                <label><input type="radio" name="color" value="purple" /><span>Purple</span></label>
+                <label><input type="radio" name="color" value="white" /><span>White</span></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>5) Choose your essence</legend>
+                <label><input type="radio" name="essence" value="wisdom" required /><span>Wisdom</span></label>
+                <label><input type="radio" name="essence" value="fury" /><span>Fury</span></label>
+                <label><input type="radio" name="essence" value="soul" /><span>Soul</span></label>
+                <label><input type="radio" name="essence" value="power" /><span>Power</span></label>
+                <label><input type="radio" name="essence" value="shadow" /><span>Shadow</span></label>
+            </fieldset>
+
+            <div class="actions">
+                <button type="button" class="btn" id="generate">Generate</button>
+            </div>
+        </form>
+
+        <section class="result">
+            <h2>Your Wu-Tang Name</h2>
+            <p id="name" class="alias">—</p>
+        </section>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

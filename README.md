@@ -1,22 +1,43 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+# Wu-Tang Name Generator
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+A gritty, graffiti-styled quiz app that creates a unique Wu-Tang Clan-inspired alias.  
+Answer five quick questions and reveal your Shaolin alter-ego.
 
-### How to submit your code for review:
+[Link to project](replace with your live demo link)  
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![screenshot](img/wu-tang.png "Wu-Tang Name Generator")
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+---
+
+## How It’s Made:
+**Tech used:** HTML, CSS, JavaScript  
+
+Five quick-choice questions shape your Wu-Tang identity.
+Each selected option contributes to a total value, which is then used to pull a name from the list.
+This keeps results consistent every time you choose the same answers.
+The design features a bold graffiti backdrop, a gold-trimmed title badge, and centered option pills that bring a clean balance to the layout.
+
+---
+
+## Optimizations
+- Adjusted layout so all content fits on screen without scrolling  
+- Centered options while keeping legends left-aligned for readability  
+- Balanced graffiti background using `background-position: 60% center`  
+- Added subtle overlays for text clarity against bright wall textures  
+- Simplified JavaScript logic for deterministic results with minimal code  
+
+---
+
+## Lessons Learned
+- Building a deterministic generator using index math instead of random values  
+- Keeping radio input groups accessible and visually balanced  
+- Refining color contrast and overlay blending on busy images  
+- Maintaining consistent styling while minimizing code complexity  
+
+---
+
+## Next Steps
+- Add optional soundtrack integration (Spotify “C.R.E.A.M.” on click)  
+- Expand name library with rarer Wu-Tang-style titles  
+- Include animated graffiti tags or subtle smoke effects  
+- Introduce light/dark graffiti wall variations for theme toggling  

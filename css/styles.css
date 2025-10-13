@@ -1,0 +1,240 @@
+/* ===== Wu-Tang Generator — Compact CSS (no HTML changes) ===== */
+
+/* base */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    color: #fff;
+    background: #111 url("../img/graffiti.jpg") 60% center / cover fixed no-repeat;
+    min-height: 100vh;
+}
+
+body::before,
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+}
+
+body::before {
+    background: rgba(0, 0, 0, .55);
+}
+
+/* global dim */
+body::after {
+    background: linear-gradient(#000c, transparent 40%);
+}
+
+/* top vignette */
+
+/* layout */
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 860px;
+    margin: 14px auto 18px;
+    padding: 0 12px;
+    text-align: center;
+}
+
+/* title + subtitle (readable badge) */
+.title {
+    display: inline-block;
+    margin: 0 0 6px;
+    font-family: "Bangers", cursive;
+    font-size: 34px;
+    letter-spacing: .5px;
+    color: #fff;
+    background: rgba(0, 0, 0, .85);
+    border: 2px solid #facc15;
+    border-radius: 12px;
+    padding: 6px 12px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, .45);
+}
+
+.subtitle {
+    margin: 0 0 10px;
+    opacity: .95;
+    font-size: 14px;
+}
+
+/* form card */
+.card {
+    background: rgba(0, 0, 0, .72);
+    border: 2px solid rgba(250, 204, 21, .45);
+    border-radius: 14px;
+    padding: 12px;
+    box-shadow: 0 10px 26px rgba(0, 0, 0, .35);
+    text-align: center;
+    /* center option pills */
+}
+
+/* groups: question left, options centered */
+fieldset {
+    border: 0;
+    margin: 8px 0 12px;
+    padding: 0;
+}
+
+legend {
+    color: #facc15;
+    font-weight: 800;
+    margin: 0 0 6px;
+    text-align: left;
+    font-size: 14px;
+}
+
+/* option pills (compact) */
+label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 6px 6px;
+    padding: 6px 10px;
+    min-width: 128px;
+    background: #131313;
+    border: 1px solid rgba(255, 255, 255, .15);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: border-color .15s, background .15s;
+    font-size: 14px;
+}
+
+label:hover {
+    border-color: rgba(250, 204, 21, .5);
+}
+
+input[type="radio"] {
+    accent-color: #facc15;
+}
+
+input[type="radio"]:checked+span {
+    background: #1b1b1b;
+    border-radius: 8px;
+    padding: 3px 6px;
+    box-shadow: inset 0 0 0 2px rgba(250, 204, 21, .28);
+}
+
+/* button */
+.actions {
+    margin-top: 8px;
+}
+
+.btn {
+    display: inline-block;
+    border: 0;
+    padding: 9px 14px;
+    font-size: 14px;
+    border-radius: 999px;
+    font-weight: 900;
+    background: #facc15;
+    color: #111;
+    cursor: pointer;
+    box-shadow: 0 8px 24px rgba(250, 204, 21, .28);
+}
+
+.btn:active {
+    transform: translateY(1px);
+}
+
+.btn:hover {
+    filter: brightness(1.06);
+}
+
+/* result */
+.result {
+    margin: 16px 0 8px;
+    position: relative;
+}
+
+.result::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 80%;
+    margin: 0 auto 10px;
+    background: rgba(255, 255, 255, .12);
+}
+
+.result h2 {
+    margin: 0 0 8px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.alias {
+    display: inline-block;
+    min-width: 220px;
+    padding: 10px 14px;
+    font-family: "Bangers", cursive;
+    font-size: 26px;
+    letter-spacing: .5px;
+    color: #facc15;
+    background: #0b0b0b;
+    border: 3px solid #facc15;
+    border-radius: 12px;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, .35), inset 0 0 18px rgba(250, 204, 21, .14);
+}
+
+/* short screens: compress further so everything fits without scroll */
+@media (max-height: 800px) {
+    .title {
+        font-size: 32px;
+        padding: 5px 10px;
+    }
+
+    .subtitle {
+        font-size: 13px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    fieldset {
+        margin: 6px 0 10px;
+    }
+
+    label {
+        min-width: 120px;
+        font-size: 13px;
+        padding: 6px 9px;
+    }
+
+    .btn {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+
+    .alias {
+        font-size: 24px;
+        padding: 9px 12px;
+    }
+}
+
+@media (max-height: 700px) {
+    .title {
+        font-size: 30px;
+    }
+
+    label {
+        min-width: 110px;
+        margin: 5px 5px;
+    }
+
+    .alias {
+        font-size: 22px;
+    }
+}
