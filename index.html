@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Wu-Tang Name Generator</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>Wu-Tang Name Generator</header>
+		<form>
+			<div>
+				
+				<label>Light
+					<input type="radio" id="lightSide" class="alignment" name="alignment" value="Light" required/>
+				</label>
+				
+				<label>Darkness
+					<input type="radio" id="darkSide" class="alignment" name="alignment" value="Dark" required/>
+				</label>
+			</div>
+			<div>
+				<label>Age?
+					<input type="number" id="ageField" name="age" placeholder="Age" min="1" max="99"/>
+				</label>
+			</div>
+			<div>
+				<label>Birth Month?
+					<input type="number" id="monthField" name="birthday" placeholder="Birth Month" min="1" max="12"/>
+				</label>
+			</div>
+			<div>
+				<label>Sword
+					<input type="radio" id="swordField" class="toolField" name="tool" value="sword" required/>
+				</label>
+				<label>Shield
+					<input type="radio" id="shieldField" class="toolField" name="tool" value="shield" required/>
+				</label>
+				<label>Grimoire
+					<input type="radio" id="bookField" class="toolField" name="tool" value="book" required/>
+				</label>
+			</div>
+			<div>
+				<label>Charmander
+					<input type="radio" id="charmander" class="starterPoke" name="Starter" value="Charmander" required/>
+				</label>
+				<label>Squirtle
+					<input type="radio" id="squirtle" class="starterPoke" name="Starter" value="Squirtle" required/>
+				</label>
+				<label>Bulbasaur
+					<input type="radio" id="bulbasaur" class="starterPoke" name="Starter" value="Bulbasaur" required/>
+				</label>
+			</div>
+			<div>
+				<button id="submitButton" class="submitButton" type="button">Submit</button>
+			</div>
+		</form>
+		
+		<div class="outputDiv">
+			<p id="output">Your Wu-Tang Name Is: </p>
+		</div>
+
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
