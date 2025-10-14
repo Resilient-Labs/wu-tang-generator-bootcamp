@@ -60,3 +60,5 @@ function generateName() {
   document.querySelector('h2').innerText = `Your Wu-Tang name is: ${personas[total]}`
 }
 
+// had a lot of help from Justin Joshi and Hector here to target the correct value in these const above as my original code used Math.floor(Math.random());
+
