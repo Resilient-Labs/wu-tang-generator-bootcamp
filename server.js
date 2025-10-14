@@ -6,7 +6,6 @@ const PORT = 8000;
 
 const server = http.createServer((req, res) => {
   const parsedURL = url.parse(req.url);
-
   const path = parsedURL.pathname;
   const params = querystring.parse(parsedURL.query);
 
@@ -17,11 +16,14 @@ const server = http.createServer((req, res) => {
       res.end();
     });
   } else if (path === "/api") {
-    console.log("\n\nYou hit an endpoint\n");
-    const { color, city, letter, size, other } = params;
-    const newName = `${city}'s ${size} ${letter}-${color}z`;
+    const { color, city, letter, size, hobby } = params;
+
+    // get first vowel from hobby
+    const vowels = hobby.match(/[aeiou]/i) || "y";
+    const newName =
+      `${city}'s ${size} ${letter}-${color}z${vowels[0]}`.toLowerCase();
     res.writeHead(200, { "Content-Type": "application/json" });
-    res.end(JSON.stringify({ newName, other }));
+    res.end(JSON.stringify({ newName }));
   } else if (path == "/css/style.css") {
     fs.readFile("css/style.css", (err, data) => {
       res.write(data);

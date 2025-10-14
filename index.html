@@ -3,20 +3,43 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="This is where your description goes" />
-    <meta name="keywords" content="one, two, three" />
+    <meta name="description" content="Wu Tang Name Generator" />
+    <meta name="keywords" content="fun, name, generator," />
 
-    <title>Title in the tab</title>
+    <title>Wu Tang Name Generator</title>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1>Hello</h1>
+    <h1>Wu Tang Name Generator</h1>
     <form id="nameForm">
-      <input type="text" placeholder="color" name="color" />
-      <input type="text" placeholder="city" name="city" />
-      <input type="text" placeholder="letter" name="letter" />
-      <input type="text" placeholder="size" name="size" />
-      <input type="text" placeholder="other" name="other" />
+      <label for="color"
+        >What's your favorite color?
+        <input type="text" id="color" name="color" />
+      </label>
+
+      <label for="city"
+        >What city do you love?
+        <input type="text" id="city" name="city" />
+      </label>
+
+      <label for="letter"
+        >What's your favorite letter?
+        <input type="text" id="letter" name="letter" />
+      </label>
+
+      <div>
+        <p>Size:</p>
+        <input type="radio" id="big" name="size" value="big" />
+        <label for="big">Big</label>
+        <input type="radio" id="lil" name="size" value="lil" />
+        <label for="lil">Small</label>
+      </div>
+
+      <label for="hobby"
+        >What is your favorite hobby?
+        <input type="text" id="hobby" name="hobby" />
+      </label>
+
       <button type="submit">Submit</button>
     </form>
 
