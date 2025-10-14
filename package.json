@@ -1,0 +1,21 @@
+{
+  "name": "wu-tang-generator",
+  "version": "1.0.0",
+  "description": "A dynamic Node.js web application that generates a personalized Wu-Tang Clan-style name based on user responses to five creative questions. Inspired by the classic 90s hip-hop vibe, this project combines fun user interaction with backend logic and stylish front-end presentation.",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hectormelendez129/wu-tang-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hectormelendez129/wu-tang-generator/issues"
+  },
+  "homepage": "https://github.com/hectormelendez129/wu-tang-generator#readme"
+}
