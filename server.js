@@ -49,24 +49,24 @@ if (page === '/api') {
     creature: ["Dragon", "Pegasus", "Kraken", "Centaur", "Banshee"]
   };
 
-  // Simple deterministic hash function
+  // Simple deterministic hash function chatGPT
   function stringToNumberHash(str) {
     let hash = 0;
     for (let i = 0; i < str.length; i++) {
-      hash = str.charCodeAt(i) + ((hash << 5) - hash);
-      hash = hash & hash; // Convert to 32bit integer
+      hash = str.charCodeAt(i) + ((hash << 5) - hash); //chatGPT
+      hash = hash & hash; // Convert to 32bit integer//chatGPT
     }
     return Math.abs(hash);
   }
 
-  // Create repeatable "random" indexes
-  const hash = stringToNumberHash(userInput);
+  // Hash user input to select words deterministically chatGPT
+  const hash = stringToNumberHash(userInput); 
   const keys = Object.keys(data);
-  const firstKey = keys[hash % keys.length];
-  const secondKey = keys[(hash >> 3) % keys.length];
+  const firstKey = keys[hash % keys.length]; //chatGPT
+  const secondKey = keys[(hash >> 3) % keys.length];//chatGPT
 
-  const firstWord = data[firstKey][hash % data[firstKey].length];
-  const secondWord = data[secondKey][(hash >> 5) % data[secondKey].length];
+  const firstWord = data[firstKey][hash % data[firstKey].length]; //chatGPT
+  const secondWord = data[secondKey][(hash >> 5) % data[secondKey].length];//chatGPT
 
   const randomName = { random1: firstWord, random2: secondWord };
 
