@@ -33,41 +33,46 @@ const server = http.createServer(function (req, res) {
     });
   }
 
-  // ************ API ENDPOINT ************
-  if (page === '/api') {
-    console.log('API endpoint hit');
+// ************ API ENDPOINT ************
+if (page === '/api') {
+  console.log('API endpoint hit');
 
-    // data set
-    const data = {
-      name: ["Jarvis", "Prompt", "Steve", "Monet", "Trish", "Tommy"],
-      trait: ["Dopey", "Grumpy", "Sneezy", "Sleepy", "Bashful", "Happy", "Doc"],
-      weapons: ["Machete", "Knuckles", "Axe", "Catapult", "Katana"],
-      creature: ["Dragon", "Pegasus", "Kraken", "Centaur", "Banshee"]
-    };
+  // Parse query string
+  const userInput = params['q'] ? params['q'].toString() : '';
+  console.log('User input:', userInput);
 
-    //create random name
-    function createRandomName() {
-      const keys = Object.keys(data);
-      const randomKeys = [];
+  // Data set
+  const data = {
+    name: ["Jarvis", "Prompt", "Steve", "Monet", "Trish", "Tommy"],
+    trait: ["Dopey", "Grumpy", "Sneezy", "Sleepy", "Bashful", "Happy", "Doc"],
+    weapons: ["Machete", "Knuckles", "Axe", "Catapult", "Katana"],
+    creature: ["Dragon", "Pegasus", "Kraken", "Centaur", "Banshee"]
+  };
 
-      // pick 2 random keys
-      while (randomKeys.length < 2) {
-        const key = keys[Math.floor(Math.random() * keys.length)];
-        if (!randomKeys.includes(key)) randomKeys.push(key);
-      }
-
-      // get random values from random key
-      const firstWord = data[randomKeys[0]][Math.floor(Math.random() * data[randomKeys[0]].length)];
-      const secondWord = data[randomKeys[1]][Math.floor(Math.random() * data[randomKeys[1]].length)];
-
-      return { random1: firstWord, random2: secondWord };
+  // Simple deterministic hash function
+  function stringToNumberHash(str) {
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+      hash = str.charCodeAt(i) + ((hash << 5) - hash);
+      hash = hash & hash; // Convert to 32bit integer
     }
-
-    const randomName = createRandomName();
-
-    res.writeHead(200, { 'Content-Type': 'application/json' });
-    return res.end(JSON.stringify(randomName));
+    return Math.abs(hash);
   }
+
+  // Create repeatable "random" indexes
+  const hash = stringToNumberHash(userInput);
+  const keys = Object.keys(data);
+  const firstKey = keys[hash % keys.length];
+  const secondKey = keys[(hash >> 3) % keys.length];
+
+  const firstWord = data[firstKey][hash % data[firstKey].length];
+  const secondWord = data[secondKey][(hash >> 5) % data[secondKey].length];
+
+  const randomName = { random1: firstWord, random2: secondWord };
+
+  res.writeHead(200, { 'Content-Type': 'application/json' });
+  return res.end(JSON.stringify(randomName));
+}
 
   /************************/
   else if (page === '/css/style.css') {
