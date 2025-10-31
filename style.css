@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: rgb(191, 134, 191);
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(10, 117, 62); 
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: rgba(0,0,0,0.6);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    min-width: 300px;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid beige;
+    font-size: 10px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: beige;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(126, 126, 33);
+}
+
+.wuName {
+    margin-top: 25px;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(80, 80, 10);
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 25px;
+    }
+    form {
+        width: 90%;
+        padding: 15px;
+    }
+    .wuName {
+        font-size: 15px;
+    }
+}
