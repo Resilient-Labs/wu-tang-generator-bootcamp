@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Application that takes in information from the user and generates a Wu-Tang name for them">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="one, two, three">
+
+        <title>Wu-Tang Name Generator</title>
+        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <h1>Wu-Tang Name Style Generator</h1>
+
+        <fieldset id="fieldset">
+            <legend>What style of rapper name do you like?</legend>
+            <div>
+                <input type="radio" id="epic" name="nameStyle" value="epic">
+                <label for="epic">Epic</label>
+            </div>
+
+            <div>
+                <input type="radio" id="noun" name="nameStyle" value="noun">
+                <label for="noun">Noun</label>
+            </div>
+
+            <div>
+                <input type="radio" id="colorful" name="nameStyle" value="colorful">
+                <label for="colorful">Colorful</label>
+            </div>
+
+            <div>
+                <input type="radio" id="funny" name="nameStyle" value="funny">
+                <label for="funny">Funny</label>
+            </div>
+
+            <div>
+                <input type="radio" id="scary" name="nameStyle" value="scary">
+                <label for="scary">Scary</label>
+            </div>
+
+        </fieldset>
+
+        <label>What's something someone can do, that may make them find out why they shouldn't f*** with you!?</label>
+        <div>
+            <input id="firstInput" type="text" placeholder="Enter your answer here">
+        </div>
+
+
+    
+    <div class="question-block">
+      <label for="definingWord">
+        3. One word that defines you:
+      </label>
+      <input id="definingWord" type="text" placeholder="Enter one defining word">
+    </div>
+
+    <!-- used google gemmini to look up how to use option -->
+    <div class="question-block">
+      <label for="borough">
+        4. Favorite borough in New York:
+      </label>
+      <select id="borough">
+        <option value="">--Select One--</option>
+        <option value="Bronx">Bronx</option>
+        <option value="Brooklyn">Brooklyn</option>
+        <option value="Queens">Queens</option>
+        <option value="Harlem">Harlem</option>
+        <option value="Staten Island">Staten Island</option>
+      </select>
+    </div>
+
+    
+    <div class="question-block">
+      <label for="platform">
+        5. Music streaming preference:
+      </label>
+      <select id="platform">
+        <option value="">--Select One--</option>
+        <option value="Spotify">Spotify</option>
+        <option value="Apple Music">Apple Music</option>
+        <option value="SoundCloud">SoundCloud</option>
+      </select>
+    </div>
+
+ 
+    <button id="submit">Generate My Wu-Tang Name</button>
+    <div id="result"></div>
+
+    <img src="Images/wu-tang-logo-1024x1024.jpg">
+
+
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
