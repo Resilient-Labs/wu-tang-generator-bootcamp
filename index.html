@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="Application that takes in information from the user and generates a Wu-Tang name for them">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="one, two, three">
+
+    <title>Wu-Tang Name Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1> Wu-Tang Name Generator </h1>
+
+    <label>Choose Your Prefix</label>
+    <select name="options" size="1" id="nameoptions">
+        <option value="grand">Grand</option>
+        <option value="masta">Masta</option>
+        <option value="grandmaster">Gradmaster</option>
+        <option value="emcee">Emcee</option>
+        <option value="mc">MC</option>
+        <option value="big">Big</option>
+        <option value="lil">Lil</option>
+        <option value="easy">Easy</option>
+        <option value="kool">Kool</option>
+        <option value="lord">Lord</option>
+        <option value="doctor">Dr.</option>
+        <option value="docta">Docta</option>
+    </select>
+
+
+    <label>If you ruled the world (imagine that), what would your title be?</label>
+    <div>
+        <input id="firstInput" type="text" placeholder="Enter your answer here">
+    </div>
+
+
+
+    <label>What's one word that your friends would use to describe you?</label>
+    <div>
+        <input id="secondInput" type="text" placeholder="Enter your answer here">
+    </div>
+
+
+    <label>Your enemies favorite word for you?</label>
+    <div>
+        <input id="thirdInput" type="text" placeholder="Enter your answer here">
+    </div>
+
+
+
+    <fieldset id="fieldset">
+        <legend>Yo RZA or yo razor?</legend>
+        <div>
+            <input type="radio" id="rza" name="decideStyle" value="RZA">
+            <label>YO RZA</label>
+        </div>
+
+        <div>
+            <input type="radio" id="razor" name="decideStyle" value="razor">
+            <label>Yo Razor</label>
+        </div>
+    </fieldset>
+
+
+    <input type="submit" id="submit">
+
+
+    <h2 id="newRapName"></h2>
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
