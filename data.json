@@ -1,0 +1,6 @@
+{
+  name: ["Jarvis","Prompt", "Steve","Monet","Trish","Tommy"],
+  trait: ["Dopey","Grumpy","Sneezy","Sleepy","Bashful","Happy","Doc"],
+  weapons: ["Machete","Knukles","Axe","Catapult","Katana"],
+  creature: ["Dragon","Pegasus","Craken","Centaur","Banshee"]
+}
