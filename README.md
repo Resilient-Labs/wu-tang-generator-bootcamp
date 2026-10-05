@@ -4,6 +4,8 @@ A Wu-Tang-inspired name generator that gives you a custom name based on your ans
 
 The app uses your most common answer category to determine the type of name you receive, then randomly combines a first and last name from that category.
 
+![Wu-Tang Name Generator](img/wu-tang-name-generator.png)
+
 ## How to Play
 
 1. Answer all five questions.
@@ -12,6 +14,8 @@ The app uses your most common answer category to determine the type of name you 
 4. Your Wu-Tang name will appear at the bottom of the page.
 
 Try different combinations to see what names you get.
+
+![Generated Wu-Tang name result](img/wu-tang-name-result.png)
 
 ## How It Works
 
