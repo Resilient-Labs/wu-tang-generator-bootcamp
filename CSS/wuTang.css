@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #6b6969;
+    color: #ffffff;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color:  #08dbf7;
+    font-size: 48px;
+    text-align: center;
+}
+
+form {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #222222;
+    border: 2px solid #08dbf7;
+    border-radius: 12px;
+}
+
+form p {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color:  #08dbf7;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form p:first-child {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    padding: 14px;
+    background: #333333;
+    border: 1px solid #666666;
+    border-radius: 6px;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+label:hover {
+    background-color: #444444;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+    accent-color: #08dbf7;
+}
+
+button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 16px;
+    background: #08dbf7;
+    color: #111111;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #08dbf7;
+}
+
+button:focus-visible,
+input:focus-visible {
+    outline: 3px solid #ffffff;
+    outline-offset: 4px;
+}
+
+#savvyResults {
+    margin-top: 25px;
+    color:  #08dbf7;
+    text-align: center;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+}
+
+/* Tablet Screen */
+@media (max-width: 768px) {
+    body {
+        padding: 20px 12px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    form p {
+        font-size: 18px;
+    }
+
+    label {
+        padding: 12px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
