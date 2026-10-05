@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Wu-Tang Name Generator">
+  	<meta name="keywords" content="Wu-Tang Clan, name-generator, game">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Wu-Tang Name Generator</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+<!-- <form action="submit" method="POST"> -->
+
+    <header>
+        <p class="eyebrow">Take The Stage</p>
+        <h1>Wu-Tang Name Generator</h1>
+        <p class ="intro">Answer five questions. Your choices will determine your Wu-Tang name.</p>
+    </header>
+
+    <main class="container">
+
+        <section class="question">
+            <h2>1. What's your vibe in a group?</h2>
+
+            <label><input class="choices" type="radio" name="q1" value="a">I set the tone.</label>
+            
+            <label><input class="choices" type="radio" name="q1" value="b">I read the room first.</label>
+
+            <label><input class="choices" type="radio" name="q1" value="c">I do my own thing.</label>
+        </section>
+
+        <section class="question">
+            <h2>2. Pick your ideal Friday night.</h2>
+
+            <label><input class="choices" type="radio" name="q2" value="a">Somewhere loud with the whole crew.</label>
+            
+            <label><input class="choices" type="radio" name="q2" value="b">An elevated spot with good conversation.</label>
+
+            <label><input class="choices" type="radio" name="q2" value="c">Wherever the night takes me.</label>
+        </section>
+        
+        <section class="question">
+            <h2>3. When something goes wrong, what's your reaction?</h2>
+
+            <label><input class="choices" type="radio" name="q3" value="a">Take charge and figure it out.</label>
+            
+            <label><input class="choices" type="radio" name="q3" value="b">Think it through before making a move.</label>
+
+            <label><input class="choices" type="radio" name="q3" value="c">Improvise and trust my instincts.</label>
+        </section>
+        
+        <section class="question">
+            <h2>4. Choose the word that fits you best.</h2>
+
+            <label><input class="choices" type="radio" name="q4" value="a">Audacious</label>
+            
+            <label><input class="choices" type="radio" name="q4" value="b">Observant</label>
+
+            <label><input class="choices" type="radio" name="q4" value="c">Unpredictable</label>
+        </section>
+        
+        
+        <section class="question">
+            <h2>5. What matters most when you're building something?</h2>
+
+            <label><input class="choices" type="radio" name="q5" value="a">Making an impact.</label>
+            
+            <label><input class="choices" type="radio" name="q5" value="b">Getting the details right.</label>
+
+            <label><input class="choices" type="radio" name="q5" value="c">Making it original.</label>
+        </section>
+
+        <section class="generate">
+            <button id="generate" type="button">Take The Stage</button>
+        </section>
+
+        <section class="result-box">
+            <p class="result-label">Your Wu-Tang Identity</p>
+
+            <h2>Who are you, really?</h2>
+
+            <h3 id="result"></h3>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Protect ya neck.</p>
+    </footer>
+    
+    <script type="text/javascript" src="js/main.js"></script>
+
+	</body>
+</html>
