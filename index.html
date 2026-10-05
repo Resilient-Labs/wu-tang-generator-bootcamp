@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wu-Tang Name Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <!-- simple hand-drawn W emblem so there's no image file to load -->
+    <svg class="emblem" viewBox="0 0 120 80" aria-hidden="true">
+      <path d="M4 6 L30 6 L44 46 L60 14 L76 46 L90 6 L116 6 L84 74 L68 74 L60 56 L52 74 L36 74 Z" />
+    </svg>
+    <h1>Wu-Tang Name Generator</h1>
+    <p class="tagline">Answer 5 questions. Enter the 36 Chambers. Leave with a new name.</p>
+  </header>
+
+  <main class="layout">
+    <!-- novalidate so script.js can show its own clearer error messages -->
+    <form id="survey" class="survey" novalidate>
+      <fieldset class="question" data-question="name">
+        <legend><span class="num">1</span> What's your first name?</legend>
+        <input type="text" id="first-name" name="firstName" maxlength="20" autocomplete="given-name" placeholder="e.g. Jordan">
+        <p class="error" aria-live="polite"></p>
+      </fieldset>
+
+      <fieldset class="question" data-question="mood">
+        <legend><span class="num">2</span> How do you walk into a room?</legend>
+        <div class="choices">
+          <label><input type="radio" name="mood" value="calm"> Calm and collected</label>
+          <label><input type="radio" name="mood" value="loud"> Loud, everybody knows</label>
+          <label><input type="radio" name="mood" value="mysterious"> Nobody saw me come in</label>
+          <label><input type="radio" name="mood" value="wild"> Unpredictable</label>
+        </div>
+        <p class="error" aria-live="polite"></p>
+      </fieldset>
+
+      <fieldset class="question" data-question="style">
+        <legend><span class="num">3</span> Pick your fighting style</legend>
+        <select id="style" name="style">
+          <option value="">Choose one...</option>
+          <option value="sword">The sword</option>
+          <option value="fists">Bare fists</option>
+          <option value="mind">Mind over matter</option>
+          <option value="words">Lyrics as weapons</option>
+        </select>
+        <p class="error" aria-live="polite"></p>
+      </fieldset>
+
+      <fieldset class="question" data-question="place">
+        <legend><span class="num">4</span> Where did you train?</legend>
+        <div class="choices">
+          <label><input type="radio" name="place" value="temple"> A Shaolin temple</label>
+          <label><input type="radio" name="place" value="block"> The Staten Island block</label>
+          <label><input type="radio" name="place" value="mountain"> Alone on a mountain</label>
+          <label><input type="radio" name="place" value="basement"> A basement studio</label>
+        </div>
+        <p class="error" aria-live="polite"></p>
+      </fieldset>
+
+      <fieldset class="question" data-question="number">
+        <legend><span class="num">5</span> Pick a chamber, 1 to 36</legend>
+        <input type="number" id="chamber" name="chamber" min="1" max="36" step="1" placeholder="1 - 36">
+        <p class="error" aria-live="polite"></p>
+      </fieldset>
+
+      <p id="form-error" class="form-error" aria-live="polite"></p>
+      <button type="submit" class="btn primary">Generate my name</button>
+    </form>
+
+    <section id="result" class="result" hidden aria-live="polite">
+      <p class="result-label">From this day forward, you shall be known as</p>
+      <h2 id="wu-name" class="wu-name"></h2>
+      <ul id="breakdown" class="breakdown"></ul>
+      <div class="actions">
+        <button type="button" id="remix" class="btn primary">Remix (same answers)</button>
+        <button type="button" id="start-over" class="btn secondary">Start over</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
