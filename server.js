@@ -7,7 +7,7 @@ const querystring = require('querystring');
 const names = {       // These are the possible names that can be given to the user based off the questions answered
 
     a: {
-      first: ['Iron Lotus', 'Silent', 'Jade', 'Eight Chamber', 'Shoalin'],    // If the user selects the first option mostly, theyll get a random name from here 'First Last'
+      first: ['Iron Lotus', 'Silent', 'Jade', 'Eight Chamber', 'Shaolin'],    // If the user selects the first option mostly, theyll get a random name from here 'First Last'
       last: ['Master', 'Assassin', 'Dragon', 'Prophet', 'Ghost']              // and same for the b and c
     },  
 
