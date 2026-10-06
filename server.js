@@ -4,21 +4,21 @@ const url = require('url');
 const querystring = require('querystring');
 
 
-const names = {
+const names = {       // These are the possible names that can be given to the user based off the questions answered
 
     a: {
-      first: ['Top', 'General', 'Slime', 'Doctor', 'Time'],
-      last: ['Dolla', 'Slime', 'Doom', 'Question', 'Foreign']
+      first: ['Iron Lotus', 'Silent', 'Jade', 'Eight Chamber', 'Shoalin'],    // If the user selects the first option mostly, theyll get a random name from here 'First Last'
+      last: ['Master', 'Assassin', 'Dragon', 'Prophet', 'Ghost']              // and same for the b and c
     },  
 
     b: {
-      first: ['Stink', 'Lieutenant', 'Tone', 'Brick', 'Old'],
-      last: ['Villian', 'Frozen', 'Underground', 'Truth', 'Unc']
+      first: ['Dagi', 'Lieutenant', 'Cold Logical', 'Scholar', 'Wise'],
+      last: ['Villian', 'Blade', 'Philosopher', 'Truth', 'Killah']
     }, 
 
     c: {
-      first: ['Surreal', 'Genius', 'Insane', 'Future', 'Master'],
-      last: ['Technician', 'Expert', 'Conqueror', 'Clutch', 'Deaf']
+      first: ['Crimy', 'Genius', 'Insane', 'Ismail', 'Master'],
+      last: ['Technician', 'Riddler', 'Conqueror', 'Bastard', 'Doom']
     }, 
 
 }
@@ -33,9 +33,9 @@ function listTaker(list){   // this is going to ask for an array
 
 function mostPicked(answered){
 
-  const counts = {
+  const counts = {        // Takes count of how many times each option is selected
 
-    a: 0,
+    a: 0,            
     
     b: 0,
 
@@ -73,25 +73,34 @@ const server = http.createServer(function(req, res) {
     });
   }
   else if (page == '/api') {
-    const answer = [params.q1, params.q2, params.q3, params.q4, params.q5];
-    const letter = mostPicked(answer);
-    const group = names[letter];
-    const name = listTaker(group.first) + ' ' + listTaker(group.last);
+    const answer = [params.q1, params.q2, params.q3, params.q4, params.q5];     // Takes the parameter from main.js of which optiuons were most selected
+    const letter = mostPicked(answer);                                          // Variable holds most picked answer
+    const group = names[letter];                                                // looks up one of the names from the most selected letter
+    const name = `${listTaker(group.first)} ${listTaker(group.last)}`;          // Name someone receives 
 
     res.writeHead(200, {'Content-Type': 'application/json'});
     res.end(JSON.stringify({name: name}));
       
-  }else if (page == '/css/style.css'){
-    fs.readFile('css/style.css', function(err, data) {
+  }else if (page == '/css/main.css'){
+    fs.readFile('css/main.css', function(err, data) {
       res.write(data);
       res.end();
     });
-  }else if (page == '/js/main.js'){
+  }else if (page == '/images/wuTangBackground.jpg'){                // Need this if block for images
+    fs.readFile('images/wuTangBackground.jpg', function(err, data){
+      res.writeHead(200, {'Content-Type': 'image/jpeg'});
+      res.end(data);
+    })
+  }
+  else if (page == '/js/main.js'){
     fs.readFile('js/main.js', function(err, data) {
       res.writeHead(200, {'Content-Type': 'text/javascript'});
       res.write(data);
       res.end();
     });
+  }else {
+    res.writeHead(404, {'Content-Type': 'text/plain'});
+    res.end('404');
   }
 });
 

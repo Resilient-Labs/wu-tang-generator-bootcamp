@@ -3,33 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css"></link>
     <title>Document</title>
 </head>
 <body>
-        <input class="choices" type="radio" name="q1" value="a">
-        <input class="choices" type="radio" name="q1" value="b">
-        <input class="choices" type="radio" name="q1" value="c">
+    <section>
+        <h1>Wu-Tang Name Generator</h1>
+        <h2>Answer the questions to find out your Wu-Tang Name!</h2>
 
-        <input class="choices" type="radio" name="q2" value="a">
-        <input class="choices" type="radio" name="q2" value="b">
-        <input class="choices" type="radio" name="q2" value="c">
-
-        <input class="choices" type="radio" name="q3" value="a">
-        <input class="choices" type="radio" name="q3" value="b">
-        <input class="choices" type="radio" name="q3" value="c">
-
-        <input class="choices" type="radio" name="q4" value="a">
-        <input class="choices" type="radio" name="q4" value="b">
-        <input class="choices" type="radio" name="q4" value="c">
- 
-        <input class="choices" type="radio" name="q5" value="a">
-        <input class="choices" type="radio" name="q5" value="b">
-        <input class="choices" type="radio" name="q5" value="c">
+        <p class="question questionOne">Which do you prefer?</p>
+        <input class="choices" type="radio" name="q1" value="a" id="q1a"><label for="q1a">Boxing</label>
+        <input class="choices" type="radio" name="q1" value="b" id="q1b"><label for="q1b">Basketball</label>
+        <input class="choices" type="radio" name="q1" value="c" id="q1c"><label for="q1c">Football</label>
+        <p class="question questionTwo">Which is the best flavor of Ice Cream?</p>
+        <input class="choices" type="radio" name="q2" value="a" id="q2a"><label for="q2a">Vanilla Bean</label>
+        <input class="choices" type="radio" name="q2" value="b" id="q2b"><label for="q2b">Pistachio</label>
+        <input class="choices" type="radio" name="q2" value="c" id="q2c"><label for="q2c">Chocolate</label>
+        <p class="question questionThree">Which is the best movie genre?</p>
+        <input class="choices" type="radio" name="q3" value="a" id="q3a"><label for="q3a">Sci-Fi/Action</label>
+        <input class="choices" type="radio" name="q3" value="b" id="q3b"><label for="q3b">Comedy</label>
+        <input class="choices" type="radio" name="q3" value="c" id="q3c"><label for="q3c">Horror/Thriller</label>
+        <p class="question questionFour">Which of these is the best?</p>
+        <input class="choices" type="radio" name="q4" value="a" id="q4a"><label for="q4a">Sushi</label>
+        <input class="choices" type="radio" name="q4" value="b" id="q4b"><label for="q4b">Birria Tacos</label>
+        <input class="choices" type="radio" name="q4" value="c" id="q4c"><label for="q4c">Pizza</label>
+        <p class="question questionFive">Which of these cities is the best?</p>
+        <input class="choices" type="radio" name="q5" value="a" id="q5a"><label for="q5a">NYC</label>
+        <input class="choices" type="radio" name="q5" value="b" id="q5b"><label for="q5b">Tokyo</label>
+        <input class="choices" type="radio" name="q5" value="c" id="q5c"><label for="q5c">Paris</label>
         <button>Submit</button>
 
         <h2>Who are you?</h2>
         <h2 id="result"></h2>
+    </section>
 
         <script src="js/main.js"></script>
 </body>
