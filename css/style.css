@@ -3,6 +3,7 @@ body {
   background-color: #121212;
   /* Deep matte black background */
   color: #ffffff;
+
   /* Crisp white for primary text */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
@@ -23,8 +24,8 @@ h1 {
   text-shadow: 2px 2px 4px  black; 
   margin-bottom: 30px;
   text-align: center;
-
 }
+
 
 p {
     font-size: 30px;
@@ -34,11 +35,9 @@ p {
     margin-bottom: 12px;
     border-bottom: 1px solid #333333;
     padding-bottom: 6px;
-
 } 
 
 .btn {
-
   margin-top: 20px;
   width: 100%;
   background-color: #FFCC00;
@@ -69,4 +68,3 @@ p {
 
 }
 
-p

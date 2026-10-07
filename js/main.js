@@ -1,55 +1,59 @@
 const button = document.querySelector('.btn')
-const nameInput = document.querySelector('.city')
+const nameInput = document.querySelector('.result-display')
 
-let woo
 
 document.querySelector("button").addEventListener("click", woo);
 
 function woo() {
 
   // Get the answer from each question 
-  const color = document.querySelector('input [name ="q1"]:checked')
-  const activity = document.querySelector('input [name ="q2"]:checked')
-  const meal = document.querySelector('input [name ="q3"]:checked')
-  const animal = document.querySelector('input [name ="q4"]:checked')
-  const emotion = document.querySelector('input [name ="q5"]:checked')
-} 
-  // Calling all the parameters 
-  fetch(`/name?color=${color}&activity=${activity}&meal=${meal}&animal=${animal}&emotion=${emotion}`)
-    .then(response => response.json())
-    .then((data) => {
-      console.log(data);
+  const color = document.querySelector('input[name ="q1"]:checked')
+  const activity = document.querySelector('input[name ="q2"]:checked')
+  const meal = document.querySelector('input[name ="q3"]:checked')
+  const animal = document.querySelector('input[name ="q4"]:checked')
+  const emotion = document.querySelector('input[name ="q5"]:checked')
 
-    }) 
 
-// Each question has to be answered 
-if (!color || !activity || !meal || !animal || !emotion) {
+  // Each question has to be answered 
+  if (!color || !activity || !meal || !animal || !emotion) {
     nameInput.value = "must answer all the questions first";
     return;
   }
 
-  // // The actual values 
-  // const colorAnswer = color.value
-  // const activityAnswer = activity.value
-  // const mealAnswer = meal.value
-  // const animalAnswer = animal.value
-  // const emotionAnswer = emotion.value
+
+// Calling all the parameters 
+fetch(`/name?color=${color.value}&activity=${activity.value}&meal=${meal.value}&animal=${animal.value}&emotion=${emotion.values}`)
+  .then(response => response.json())
+  .then((data) => {
+    console.log(data); 
+    nameInput.value = data.result // text box will show the result of the generator 
+  })} 
 
 
-  // // Build each first name 
-  // const firstPart =
-  //   firstNames[colorAnswer] ||
-  //   firstNames[activityAnswer] ||
-  //   firstNames[mealAnswer];
 
 
-  // // Build each last name 
-  // const secondPart =
-  //   secondNames[animalAnswer] ||
-  //   secondNames[emotionAnswer];
+// // The actual values 
+// const colorAnswer = color.value
+// const activityAnswer = activity.value
+// const mealAnswer = meal.value
+// const animalAnswer = animal.value
+// const emotionAnswer = emotion.value
 
-  // //The generated name into the input box 
-  // const wuTangName = `${firstPart} ${secondPart}`
+
+// // Build each first name
+// const firstPart =
+//   firstNames[colorAnswer] ||
+//   firstNames[activityAnswer] ||
+//   firstNames[mealAnswer];
+
+
+// // Build each last name
+// const secondPart =
+//   secondNames[animalAnswer] ||
+//   secondNames[emotionAnswer];
+
+// //The generated name into the input box
+// const wuTangName = `${firstPart} ${secondPart}`
 
 
 
