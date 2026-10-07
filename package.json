@@ -1,0 +1,21 @@
+{
+  "name": "wutang",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/exbrto/Wu-Tang-Name-Generator#readme",
+  "bugs": {
+    "url": "https://github.com/exbrto/Wu-Tang-Name-Generator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exbrto/Wu-Tang-Name-Generator.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  }
+}
