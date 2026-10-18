@@ -43,3 +43,12 @@ The generator uses JavaScript to randomly select values used to create a Bikini 
 When the user activates the generator, JavaScript selects the necessary values, combines them into a result, and updates the page with the generated name.
 
 Users can run the generator again to receive a different result.
+
+
+## Run locally or deploy
+
+The app runs entirely in the browser: no Node server, dependencies, or API is required. Open `index.html`, or serve this folder with any static web server.
+
+For GitHub Pages, publish the repository root from the `answer` branch (Settings → Pages → Deploy from a branch). The public URL is https://kelvinimalenowa.github.io/bikini-bottom-name-generator/.
+
+Answer all five questions before generating a name. The most frequent answer selects a name group; ties favor A, then B, then C, matching the original server. A first and last name are randomly selected from that group each time.
