@@ -112,10 +112,16 @@ const server = http.createServer(function (req, res) {
     
 
  } else if (page == '/css/style.css') {
-    fs.readFile('css/style.css', function (err, data) {
-      res.write(data);
-      res.end();
-    });
+  fs.readFile('css/style.css', function (err, data) {
+    if (err) {
+      res.writeHead(404);
+      res.end('css not found');
+      return;
+    }
+    res.writeHead(200, { 'Content-Type': 'text/css' });
+    res.end(data);
+  });
+
   } else if (page == '/js/main.js') {
     fs.readFile('js/main.js', function (err, data) {
       res.writeHead(200, { 'Content-Type': 'text/javascript' });
