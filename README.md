@@ -33,6 +33,3 @@ Open your browser and navigate to http://localhost:8000.
 Answer all five survey questions.
 Submit your answers.
 View your randomly generated name!
-I completed the challenge: 5
-I feel good about my code: 4
-Anything specific on which you want feedback!
