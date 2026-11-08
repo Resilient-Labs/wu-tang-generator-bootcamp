@@ -1,22 +1,35 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+# Name Generator
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+The Name Generator is a simple web application that generates a unique, randomized name based on the user's answers to five survey questions. Users complete a short questionnaire and receive a randomly generated name based on their responses.
 
-### How to submit your code for review:
+## Features
+Survey Questions: Answer five questions to provide input for the name generator.
+Name Generation: Generate a unique name based on survey answers.
+Randomized Results: Create fun and unexpected name combinations.
+Interactive Interface: Submit answers and view your generated name.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## Tech Stack
+Frontend: HTML, CSS, JavaScript
+Backend: Node.js
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## What I Learned
+Creating and running a local server using Node.js.
+Working with server.js to serve the application.
+Creating interactive forms to collect user input.
+Using JavaScript to process user responses.
+Working with randomization to generate unique name combinations.
+Using arrays and conditional statements.
+Updating webpage content dynamically using JavaScript.
+Connecting frontend functionality with backend server logic.
+
+## Installation
+Fork and clone the repository.
+Navigate to the project directory.
+Usage
+Start the server using:
+node server.js
+Open your browser and navigate to http://localhost:8000.
+
+Answer all five survey questions.
+Submit your answers.
+View your randomly generated name!

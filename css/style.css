@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(70, 70, 181);
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 50px;
+}
+
+h2 {
+  color: greenyellow;
+  font-size: 50px;
+}
+
+#generate {
+  display: block;
+  margin: 30px auto;
+  padding: 12px 30px;
+  background:greenyellow;
+  border: none;
+  font-weight: bold;
+}
+
+#result {
+  color: greenyellow;
+  font-size: 30px;
+}
