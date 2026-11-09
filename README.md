@@ -2,6 +2,10 @@
 
 The Name Generator is a simple web application that generates a unique, randomized name based on the user's answers to five survey questions. Users complete a short questionnaire and receive a randomly generated name based on their responses.
 
+
+<img width="1781" height="909" alt="NameGenerator" src="https://github.com/user-attachments/assets/5ac10d7a-377e-4ae1-8f39-67228bd0cd05" />
+
+
 ## Features
 Survey Questions: Answer five questions to provide input for the name generator.
 Name Generation: Generate a unique name based on survey answers.
