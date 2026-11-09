@@ -1,22 +1,28 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+# Wu-Tang Name Generator
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+A simple Node.js web application that generates a Wu-Tang-inspired name based on user input
 
-### How to submit your code for review:
+## Features
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+- Five-question name generator form
+- Deterministic name generation based on the length of the submitted text
+- Custom HTTP server built with Node.js
+- Static serving for HTML, CSS, and JavaScript files
+- JSON API endpoint for generated names
+- Configurable server port through the `PORT` environment variable
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Tech Stack 
+-HTML
+-CSS 
+-JavaScript
+-Node.js
+
+<img width="563" height="496" alt="Screenshot 2026-11-09 at 8 16 55 AM" src="https://github.com/user-attachments/assets/a12897bd-6615-49e6-9c46-40fcbdf82247" />
+
+
+## Running the Application 
+
+-clone the repo and open the terminal into the project directory
+-Ensure that you have Node installed
+-Start the server using node server.js 
+-Navigate to http://localhost:8000 in your browser to open the application
