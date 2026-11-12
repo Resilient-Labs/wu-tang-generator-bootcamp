@@ -5,6 +5,8 @@ Answer 5 survey questions and get a randomly generated, Wu-Tang-sounding name ba
 
 ![screenshot](./images/wutangGenerator.png)
 
+[Try it here](https://wu-tang-name-generator-wa9t.onrender.com)
+
 ## Features
 - 5-question survey to capture your personality and preferences
 - Randomly generates a Wu-Tang-style name based on your answers
