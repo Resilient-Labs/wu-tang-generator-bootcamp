@@ -24,7 +24,7 @@ To access this web app, click on the link in the About section of this repo or s
 - **Frontend:** HTML, CSS, JavaScript (vanilla, no framework)
 - **Backend:** JavaScript
 - **Browser APIs:** `document.querySelector`, `addEventListener`
-- **Data:** word lists stored in arrays in `assets/main.js`
+- **Data:** word lists stored in arrays in `server.js`
 - **Hosting:** GitHub Pages
 
 ### Things I Learned:
