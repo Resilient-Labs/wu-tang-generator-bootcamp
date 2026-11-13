@@ -7,7 +7,7 @@ A generator that turns your name into a Wu-Tang Clan–style alias. Built with H
 A generator that turns your name into a Wu-Tang Clan–style nickname/alias. It presents the user with 5 survey questions and based on those answers, randomly generates a name. No EXPRESS! It's my take on the original generator (built on php and may be unsafe to visit at the moment). The styling is old-school hip-hop-themed to match the subject.
 
 ### Live Link
-To access this web app, click on the link in the About section of this repo or simply **[click here]**(https://wu-tang-generator-6ibp.onrender.com/)
+To access this web app, click on the link in the About section of this repo or simply [**click here**](https://wu-tang-generator-6ibp.onrender.com/)
 
 ![screenshot of the webpage](/img/projectScreenshot.png)
 
@@ -17,7 +17,7 @@ To access this web app, click on the link in the About section of this repo or s
 - **Generated alias** — displays the resulting Wu-Tang name on the page.
 - **Random selection** — the alias is assembled from an array of strings rather than hardcoded question, so results vary.
 - **Web Application** — use of `npm install` to install dependencies. 
-- **Custom styling** — a hand-written stylesheet in `assets/styles.css` and a Google Fonts stack.
+- **Custom styling** — a hand-written stylesheet in `css/styles.css` and a Google Fonts stack.
 
 ### Tech Used:
 
@@ -42,7 +42,7 @@ To access this web app, click on the link in the About section of this repo or s
 
 ### How to Use:
 
-1. Visit this website using the live link by **[clicking here]** (https://wu-tang-generator-6ibp.onrender.com/)
+1. Visit this website using the live link by [**clicking here**](https://wu-tang-generator-6ibp.onrender.com/)
 
 2. Answer the multiple choice questions and wait for your very own Wu Tang name!
 
